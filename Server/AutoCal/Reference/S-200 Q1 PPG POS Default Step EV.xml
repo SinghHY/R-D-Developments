@@ -1,0 +1,331 @@
+<Method>
+  <APCI1>False</APCI1>
+  <APCI2>False</APCI2>
+  <ESI1>True</ESI1>
+  <ESI2>False</ESI2>
+  <PolaritySwitch>False</PolaritySwitch>
+  <Original_File>C:\USERS\PUBLIC\Molana\Instrument\Project\MS Methods\Automated Calibration Methods\S-200\S-200 Q1 PPG POS Default Step EV.xml</Original_File>
+  <Total_NumOf_Experiments>1</Total_NumOf_Experiments>
+  <Sync_Mode>No_LC</Sync_Mode>
+  <Equilibration>3000</Equilibration>
+  <Q1_Calibration_File>DefaultCalibration</Q1_Calibration_File>
+  <Q3_Calibration_File>DefaultCalibration</Q3_Calibration_File>
+  <LensTable>
+    <LensRow>
+      <ChannelDescription>Detector Horn</ChannelDescription>
+      <Voltages>5500</Voltages>
+      <ChannelID>200</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Drying Gas</ChannelDescription>
+      <Voltages>80</Voltages>
+      <ChannelID>26</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Nebulizer Gas 1</ChannelDescription>
+      <Voltages>90</Voltages>
+      <ChannelID>27</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Heating Gas 1</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>29</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Nebulizer Gas 2</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>28</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Heating Gas 2</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>30</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Source Exhaust</ChannelDescription>
+      <Voltages>500</Voltages>
+      <ChannelID>42</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>HSID Temperature</ChannelDescription>
+      <Voltages>320</Voltages>
+      <ChannelID>81</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Source 1 Temp</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>86</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Source 2 Temp</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>84</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Corona Discharge</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>202</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>ElectroSpray V2</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>204</ChannelID>
+    </LensRow>
+  </LensTable>
+  <Starting_Scan>1</Starting_Scan>
+  <Num_Of_Scans>100</Num_Of_Scans>
+  <Total_Num_Mass>600</Total_Num_Mass>
+  <Experiment>
+    <Experiment_Number>0</Experiment_Number>
+    <Run_Mode>Q1FullScan</Run_Mode>
+    <Polarity>Positive</Polarity>
+    <Start_Time>0</Start_Time>
+    <Stop_Time>603000</Stop_Time>
+    <Num_Of_Cycles>100</Num_Of_Cycles>
+    <Pause_Time>5000</Pause_Time>
+    <Fixed_Mass>100.0000</Fixed_Mass>
+    <Delay_Time>0</Delay_Time>
+    <Mass_Defect>55</Mass_Defect>
+    <Comment>
+    </Comment>
+    <Num_Of_MR>6</Num_Of_MR>
+    <Dwell_Time>6030</Dwell_Time>
+    <Num_Of_Mass>600</Num_Of_Mass>
+    <LensTable>
+      <LensRow>
+        <ChannelDescription>Multipole 1 RF</ChannelDescription>
+        <Voltages>450</Voltages>
+        <ChannelID>3</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Not Used 1</ChannelDescription>
+        <Voltages>0</Voltages>
+        <ChannelID>21</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Multipole 1</ChannelDescription>
+        <Voltages>0</Voltages>
+        <ChannelID>19</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Multipole Lens 1</ChannelDescription>
+        <Voltages>0</Voltages>
+        <ChannelID>18</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Multipole 2</ChannelDescription>
+        <Voltages>0</Voltages>
+        <ChannelID>22</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Multipole Lens 2</ChannelDescription>
+        <Voltages>0</Voltages>
+        <ChannelID>11</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Prefilter 1</ChannelDescription>
+        <Voltages>-15</Voltages>
+        <ChannelID>12</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Quadrupole 1</ChannelDescription>
+        <Voltages>-1</Voltages>
+        <ChannelID>6</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Cell Lens 1</ChannelDescription>
+        <Voltages>0</Voltages>
+        <ChannelID>13</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Cell Lens 2</ChannelDescription>
+        <Voltages>-100</Voltages>
+        <ChannelID>14</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Energy</ChannelDescription>
+        <Voltages>-50</Voltages>
+        <ChannelID>23</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Axial Field</ChannelDescription>
+        <Voltages>100</Voltages>
+        <ChannelID>10</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Cell Lens 3</ChannelDescription>
+        <Voltages>-51</Voltages>
+        <ChannelID>15</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Cell Lens 4</ChannelDescription>
+        <Voltages>-62</Voltages>
+        <ChannelID>16</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Quadrupole 2</ChannelDescription>
+        <Voltages>-52</Voltages>
+        <ChannelID>8</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Detector Deflector</ChannelDescription>
+        <Voltages>-100</Voltages>
+        <ChannelID>17</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Discriminator</ChannelDescription>
+        <Voltages>15</Voltages>
+        <ChannelID>32</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Detector Voltage</ChannelDescription>
+        <Voltages>2000</Voltages>
+        <ChannelID>34</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Pressure</ChannelDescription>
+        <Voltages>0</Voltages>
+        <ChannelID>43</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>ElectroSpray V1</ChannelDescription>
+        <Voltages>5850</Voltages>
+        <ChannelID>203</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Curtain Cap</ChannelDescription>
+        <Voltages>1000</Voltages>
+        <ChannelID>201</ChannelID>
+      </LensRow>
+    </LensTable>
+    <Start_Index_In_MassString>0</Start_Index_In_MassString>
+    <MassRanges>
+      <MassRange>
+        <Name>
+        </Name>
+        <Mass>59</Mass>
+        <Width>10</Width>
+        <Start_Mass>54</Start_Mass>
+        <Stop_Mass>64</Stop_Mass>
+        <Step_Size>0.1</Step_Size>
+        <Num_Of_Steps>100</Num_Of_Steps>
+        <Dwell_Time>10</Dwell_Time>
+        <Resolution>Unit_Unit</Resolution>
+        <Mass_Range_String>54.0000	54.1006	54.2011	54.3017	54.4022	54.5028	54.6033	54.7039	54.8044	54.9050	55.0055	55.1061	55.2066	55.3072	55.4077	55.5083	55.6088	55.7094	55.8099	55.9105	56.0110	56.1116	56.2121	56.3127	56.4132	56.5138	56.6143	56.7149	56.8154	56.9160	57.0165	57.1171	57.2176	57.3182	57.4187	57.5193	57.6198	57.7204	57.8209	57.9215	58.0220	58.1226	58.2231	58.3237	58.4242	58.5248	58.6253	58.7259	58.8264	58.9270	59.0275	59.1281	59.2286	59.3292	59.4297	59.5303	59.6308	59.7314	59.8319	59.9325	60.0330	60.1336	60.2341	60.3347	60.4352	60.5358	60.6363	60.7369	60.8374	60.9380	61.0385	61.1391	61.2396	61.3402	61.4407	61.5413	61.6418	61.7424	61.8429	61.9435	62.0440	62.1446	62.2451	62.3457	62.4462	62.5468	62.6473	62.7479	62.8484	62.9490	63.0495	63.1501	63.2506	63.3512	63.4517	63.5523	63.6528	63.7534	63.8539	63.9545	</Mass_Range_String>
+        <ParamTable>
+          <ParamRow>
+            <ChannelDescription>Entrance Voltage</ChannelDescription>
+            <ChannelID>20</ChannelID>
+            <Start_Voltage>30</Start_Voltage>
+            <Stop_Voltage>30</Stop_Voltage>
+          </ParamRow>
+        </ParamTable>
+      </MassRange>
+      <MassRange>
+        <Name>
+        </Name>
+        <Mass>175</Mass>
+        <Width>10</Width>
+        <Start_Mass>170</Start_Mass>
+        <Stop_Mass>180</Stop_Mass>
+        <Step_Size>0.1</Step_Size>
+        <Num_Of_Steps>100</Num_Of_Steps>
+        <Dwell_Time>10</Dwell_Time>
+        <Resolution>Unit_Unit</Resolution>
+        <Mass_Range_String>170.0000	170.1006	170.2011	170.3017	170.4022	170.5028	170.6033	170.7039	170.8044	170.9050	171.0055	171.1061	171.2066	171.3072	171.4077	171.5083	171.6088	171.7094	171.8099	171.9105	172.0110	172.1116	172.2121	172.3127	172.4132	172.5138	172.6143	172.7149	172.8154	172.9160	173.0165	173.1171	173.2176	173.3182	173.4187	173.5193	173.6198	173.7204	173.8209	173.9215	174.0220	174.1226	174.2231	174.3237	174.4242	174.5248	174.6253	174.7259	174.8264	174.9270	175.0275	175.1281	175.2286	175.3292	175.4297	175.5303	175.6308	175.7314	175.8319	175.9325	176.0330	176.1336	176.2341	176.3347	176.4352	176.5358	176.6363	176.7369	176.8374	176.9380	177.0385	177.1391	177.2396	177.3402	177.4407	177.5413	177.6418	177.7424	177.8429	177.9435	178.0440	178.1446	178.2451	178.3457	178.4462	178.5468	178.6473	178.7479	178.8484	178.9490	179.0495	179.1501	179.2506	179.3512	179.4517	179.5523	179.6528	179.7534	179.8539	179.9545	</Mass_Range_String>
+        <ParamTable>
+          <ParamRow>
+            <ChannelDescription>Entrance Voltage</ChannelDescription>
+            <ChannelID>20</ChannelID>
+            <Start_Voltage>40</Start_Voltage>
+            <Stop_Voltage>40</Stop_Voltage>
+          </ParamRow>
+        </ParamTable>
+      </MassRange>
+      <MassRange>
+        <Name>
+        </Name>
+        <Mass>616</Mass>
+        <Width>10</Width>
+        <Start_Mass>611</Start_Mass>
+        <Stop_Mass>621</Stop_Mass>
+        <Step_Size>0.1</Step_Size>
+        <Num_Of_Steps>100</Num_Of_Steps>
+        <Dwell_Time>10</Dwell_Time>
+        <Resolution>Unit_Unit</Resolution>
+        <Mass_Range_String>611.0000	611.1006	611.2011	611.3017	611.4022	611.5028	611.6033	611.7039	611.8044	611.9050	612.0055	612.1061	612.2066	612.3072	612.4077	612.5083	612.6088	612.7094	612.8099	612.9105	613.0110	613.1116	613.2121	613.3127	613.4132	613.5138	613.6143	613.7149	613.8154	613.9160	614.0165	614.1171	614.2176	614.3182	614.4187	614.5193	614.6198	614.7204	614.8209	614.9215	615.0220	615.1226	615.2231	615.3237	615.4242	615.5248	615.6253	615.7259	615.8264	615.9270	616.0275	616.1281	616.2286	616.3292	616.4297	616.5303	616.6308	616.7314	616.8319	616.9325	617.0330	617.1336	617.2341	617.3347	617.4352	617.5358	617.6363	617.7369	617.8374	617.9380	618.0385	618.1391	618.2396	618.3402	618.4407	618.5413	618.6418	618.7424	618.8429	618.9435	619.0440	619.1446	619.2451	619.3457	619.4462	619.5468	619.6473	619.7479	619.8484	619.9490	620.0495	620.1501	620.2506	620.3512	620.4517	620.5523	620.6528	620.7534	620.8539	620.9545	</Mass_Range_String>
+        <ParamTable>
+          <ParamRow>
+            <ChannelDescription>Entrance Voltage</ChannelDescription>
+            <ChannelID>20</ChannelID>
+            <Start_Voltage>55</Start_Voltage>
+            <Stop_Voltage>55</Stop_Voltage>
+          </ParamRow>
+        </ParamTable>
+      </MassRange>
+      <MassRange>
+        <Name>
+        </Name>
+        <Mass>907</Mass>
+        <Width>10</Width>
+        <Start_Mass>902</Start_Mass>
+        <Stop_Mass>912</Stop_Mass>
+        <Step_Size>0.1</Step_Size>
+        <Num_Of_Steps>100</Num_Of_Steps>
+        <Dwell_Time>10</Dwell_Time>
+        <Resolution>Unit_Unit</Resolution>
+        <Mass_Range_String>902.0000	902.1006	902.2011	902.3017	902.4022	902.5028	902.6033	902.7039	902.8044	902.9050	903.0055	903.1061	903.2066	903.3072	903.4077	903.5083	903.6088	903.7094	903.8099	903.9105	904.0110	904.1116	904.2121	904.3127	904.4132	904.5138	904.6143	904.7149	904.8154	904.9160	905.0165	905.1171	905.2176	905.3182	905.4187	905.5193	905.6198	905.7204	905.8209	905.9215	906.0220	906.1226	906.2231	906.3237	906.4242	906.5248	906.6253	906.7259	906.8264	906.9270	907.0275	907.1281	907.2286	907.3292	907.4297	907.5303	907.6308	907.7314	907.8319	907.9325	908.0330	908.1336	908.2341	908.3347	908.4352	908.5358	908.6363	908.7369	908.8374	908.9380	909.0385	909.1391	909.2396	909.3402	909.4407	909.5413	909.6418	909.7424	909.8429	909.9435	910.0440	910.1446	910.2451	910.3457	910.4462	910.5468	910.6473	910.7479	910.8484	910.9490	911.0495	911.1501	911.2506	911.3512	911.4517	911.5523	911.6528	911.7534	911.8539	911.9545	</Mass_Range_String>
+        <ParamTable>
+          <ParamRow>
+            <ChannelDescription>Entrance Voltage</ChannelDescription>
+            <ChannelID>20</ChannelID>
+            <Start_Voltage>60</Start_Voltage>
+            <Stop_Voltage>60</Stop_Voltage>
+          </ParamRow>
+        </ParamTable>
+      </MassRange>
+      <MassRange>
+        <Name>
+        </Name>
+        <Mass>1255</Mass>
+        <Width>10</Width>
+        <Start_Mass>1250</Start_Mass>
+        <Stop_Mass>1260</Stop_Mass>
+        <Step_Size>0.1</Step_Size>
+        <Num_Of_Steps>100</Num_Of_Steps>
+        <Dwell_Time>10</Dwell_Time>
+        <Resolution>Unit_Unit</Resolution>
+        <Mass_Range_String>1250.0000	1250.1006	1250.2011	1250.3017	1250.4022	1250.5028	1250.6033	1250.7039	1250.8044	1250.9050	1251.0055	1251.1061	1251.2066	1251.3072	1251.4077	1251.5083	1251.6088	1251.7094	1251.8099	1251.9105	1252.0110	1252.1116	1252.2121	1252.3127	1252.4132	1252.5138	1252.6143	1252.7149	1252.8154	1252.9160	1253.0165	1253.1171	1253.2176	1253.3182	1253.4187	1253.5193	1253.6198	1253.7204	1253.8209	1253.9215	1254.0220	1254.1226	1254.2231	1254.3237	1254.4242	1254.5248	1254.6253	1254.7259	1254.8264	1254.9270	1255.0275	1255.1281	1255.2286	1255.3292	1255.4297	1255.5303	1255.6308	1255.7314	1255.8319	1255.9325	1256.0330	1256.1336	1256.2341	1256.3347	1256.4352	1256.5358	1256.6363	1256.7369	1256.8374	1256.9380	1257.0385	1257.1391	1257.2396	1257.3402	1257.4407	1257.5413	1257.6418	1257.7424	1257.8429	1257.9435	1258.0440	1258.1446	1258.2451	1258.3457	1258.4462	1258.5468	1258.6473	1258.7479	1258.8484	1258.9490	1259.0495	1259.1501	1259.2506	1259.3512	1259.4517	1259.5523	1259.6528	1259.7534	1259.8539	1259.9545	</Mass_Range_String>
+        <ParamTable>
+          <ParamRow>
+            <ChannelDescription>Entrance Voltage</ChannelDescription>
+            <ChannelID>20</ChannelID>
+            <Start_Voltage>70</Start_Voltage>
+            <Stop_Voltage>70</Stop_Voltage>
+          </ParamRow>
+        </ParamTable>
+      </MassRange>
+      <MassRange>
+        <Name>
+        </Name>
+        <Mass>1487</Mass>
+        <Width>10</Width>
+        <Start_Mass>1482</Start_Mass>
+        <Stop_Mass>1492</Stop_Mass>
+        <Step_Size>0.1</Step_Size>
+        <Num_Of_Steps>100</Num_Of_Steps>
+        <Dwell_Time>10</Dwell_Time>
+        <Resolution>Unit_Unit</Resolution>
+        <Mass_Range_String>1482.0000	1482.1006	1482.2011	1482.3017	1482.4022	1482.5028	1482.6033	1482.7039	1482.8044	1482.9050	1483.0055	1483.1061	1483.2066	1483.3072	1483.4077	1483.5083	1483.6088	1483.7094	1483.8099	1483.9105	1484.0110	1484.1116	1484.2121	1484.3127	1484.4132	1484.5138	1484.6143	1484.7149	1484.8154	1484.9160	1485.0165	1485.1171	1485.2176	1485.3182	1485.4187	1485.5193	1485.6198	1485.7204	1485.8209	1485.9215	1486.0220	1486.1226	1486.2231	1486.3237	1486.4242	1486.5248	1486.6253	1486.7259	1486.8264	1486.9270	1487.0275	1487.1281	1487.2286	1487.3292	1487.4297	1487.5303	1487.6308	1487.7314	1487.8319	1487.9325	1488.0330	1488.1336	1488.2341	1488.3347	1488.4352	1488.5358	1488.6363	1488.7369	1488.8374	1488.9380	1489.0385	1489.1391	1489.2396	1489.3402	1489.4407	1489.5413	1489.6418	1489.7424	1489.8429	1489.9435	1490.0440	1490.1446	1490.2451	1490.3457	1490.4462	1490.5468	1490.6473	1490.7479	1490.8484	1490.9490	1491.0495	1491.1501	1491.2506	1491.3512	1491.4517	1491.5523	1491.6528	1491.7534	1491.8539	1491.9545	</Mass_Range_String>
+        <ParamTable>
+          <ParamRow>
+            <ChannelDescription>Entrance Voltage</ChannelDescription>
+            <ChannelID>20</ChannelID>
+            <Start_Voltage>80</Start_Voltage>
+            <Stop_Voltage>80</Stop_Voltage>
+          </ParamRow>
+        </ParamTable>
+      </MassRange>
+    </MassRanges>
+  </Experiment>
+</Method>

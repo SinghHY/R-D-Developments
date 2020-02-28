@@ -1,0 +1,181 @@
+<SparkStatus>
+  <Autosampler>
+    <DeviceStatus>Initializing</DeviceStatus>
+    <Detected>
+      <CanMixAndDilute>false</CanMixAndDilute>
+      <SerialNumber />
+      <FirmwareVersion />
+      <PcbPartNumber />
+      <FpgaPartNumber />
+      <FpgaVersion />
+      <FirmwarePartNumber />
+    </Detected>
+    <DetailedStatus>
+      <ActualTemperature>0</ActualTemperature>
+      <Setpoint>0</Setpoint>
+      <SamplePosition>None</SamplePosition>
+      <Status>Unknown</Status>
+      <InjectorPosition>Inject</InjectorPosition>
+      <IsVialMissing>false</IsVialMissing>
+      <PlatePosition />
+      <IsTemperatureControlOn>false</IsTemperatureControlOn>
+      <StatusCode>-1</StatusCode>
+      <ErrorCode>0</ErrorCode>
+      <LastDCActionGuid>00000000-0000-0000-0000-000000000000</LastDCActionGuid>
+      <DoorOpenTime>0</DoorOpenTime>
+      <CommunicationErrorMessage />
+      <IsDoorOpen>false</IsDoorOpen>
+      <TrayType>LowWell96</TrayType>
+      <Progress>0</Progress>
+    </DetailedStatus>
+    <LogCounters>
+      <InjectorValve>0</InjectorValve>
+      <IssA>0</IssA>
+      <SyringeValve>0</SyringeValve>
+      <Syringe>0</Syringe>
+    </LogCounters>
+    <AdvancedStatus>
+      <IssValvePosition>OneTwo</IssValvePosition>
+      <Valve1Out6Position>0</Valve1Out6Position>
+      <SSVPosition>Solvent1</SSVPosition>
+      <IsCompressorOn>false</IsCompressorOn>
+      <SyringeValvePosition>0</SyringeValvePosition>
+      <AdjustmentNeedleHorizontal>0</AdjustmentNeedleHorizontal>
+      <AdjustmentTray>0</AdjustmentTray>
+      <AdjustmentSyringe>0</AdjustmentSyringe>
+      <AdjustmentNeedleInEEprom>0</AdjustmentNeedleInEEprom>
+      <AdjustmentTrayInEEprom>0</AdjustmentTrayInEEprom>
+      <AdjustmentSyringeInEEprom>0</AdjustmentSyringeInEEprom>
+      <IsAux1On>false</IsAux1On>
+    </AdvancedStatus>
+    <Options>
+      <HasCooling>false</HasCooling>
+      <HasSSV>false</HasSSV>
+      <HasWashPort2>false</HasWashPort2>
+      <HasISSA>false</HasISSA>
+      <HasHeating>false</HasHeating>
+      <Has6PortValve>false</Has6PortValve>
+    </Options>
+    <Config>
+      <LoopVolume>100</LoopVolume>
+      <SyringeVolume>500</SyringeVolume>
+      <NeedleVolume>15</NeedleVolume>
+    </Config>
+  </Autosampler>
+  <ColumnOven>
+    <DeviceStatus>Initializing</DeviceStatus>
+    <Detected>
+      <SerialNumber />
+      <FirmwareVersion />
+      <PcbPartNumber />
+      <FpgaPartNumber />
+      <FpgaVersion />
+      <FirmwarePartNumber />
+      <PcbVersion />
+      <ColumnOvenOptions>
+        <HasCooling>false</HasCooling>
+        <HasColumnSwitcher>false</HasColumnSwitcher>
+      </ColumnOvenOptions>
+    </Detected>
+    <DetailedStatus>
+      <Status>Initializing</Status>
+      <Setpoint>0</Setpoint>
+      <ActualTemperature>0</ActualTemperature>
+      <ActualValvePosition>0</ActualValvePosition>
+      <VapourAlarmSensitivity>Low</VapourAlarmSensitivity>
+      <StatusCode>0</StatusCode>
+      <ErrorCode>0</ErrorCode>
+      <LastDCActionGuid>00000000-0000-0000-0000-000000000000</LastDCActionGuid>
+      <RequestSetpoint>0</RequestSetpoint>
+      <CustomCommandResponse />
+      <IsOvenOn>false</IsOvenOn>
+    </DetailedStatus>
+    <Service>
+      <IsInServiceMode>false</IsInServiceMode>
+      <ColumnSelectionHomeSensor>Unknown</ColumnSelectionHomeSensor>
+      <ColumnSelectionLegalSensor>Unknown</ColumnSelectionLegalSensor>
+      <HeaterFanSpeed>0</HeaterFanSpeed>
+    </Service>
+    <LogCounters>
+      <ColumnSwitch>0</ColumnSwitch>
+    </LogCounters>
+    <FlashStatus>
+      <Status>Ready</Status>
+      <StatusOfFlash>0</StatusOfFlash>
+      <Percentage>0</Percentage>
+      <Speed>0</Speed>
+    </FlashStatus>
+  </ColumnOven>
+  <LcPump>
+    <DeviceStatus>Initializing</DeviceStatus>
+    <DetectedA>
+      <SerialNumber />
+      <FirmwareVersion />
+      <PcbPartNumber />
+      <FpgaPartNumber />
+      <FpgaVersion />
+      <FirmwarePartNumber />
+    </DetectedA>
+    <DetectedB>
+      <SerialNumber />
+      <FirmwareVersion />
+      <PcbPartNumber />
+      <FpgaPartNumber />
+      <FpgaVersion />
+      <FirmwarePartNumber />
+    </DetectedB>
+    <DetailedStatus>
+      <Status>Connecting</Status>
+      <ModuleA>
+        <ActualPressure>0</ActualPressure>
+        <Solvent>Solvent1</Solvent>
+        <ActualFlow>0</ActualFlow>
+        <Status />
+        <MaxPressure>0</MaxPressure>
+        <CompressibilityFactor>0</CompressibilityFactor>
+        <FlowCompensationFactor>0</FlowCompensationFactor>
+        <ProgrammedFlow>0</ProgrammedFlow>
+        <ErrorCode>0</ErrorCode>
+        <StatusCode>0</StatusCode>
+        <IsPumpOn>false</IsPumpOn>
+      </ModuleA>
+      <ModuleB>
+        <ActualPressure>0</ActualPressure>
+        <Solvent>Solvent1</Solvent>
+        <ActualFlow>0</ActualFlow>
+        <Status />
+        <MaxPressure>0</MaxPressure>
+        <CompressibilityFactor>0</CompressibilityFactor>
+        <FlowCompensationFactor>0</FlowCompensationFactor>
+        <ProgrammedFlow>0</ProgrammedFlow>
+        <ErrorCode>0</ErrorCode>
+        <StatusCode>0</StatusCode>
+        <IsPumpOn>false</IsPumpOn>
+      </ModuleB>
+      <IsDegasserOn>false</IsDegasserOn>
+      <LastDCActionGuid>00000000-0000-0000-0000-000000000000</LastDCActionGuid>
+    </DetailedStatus>
+    <ServiceA>
+      <Fan1Speed>0</Fan1Speed>
+      <Fan2Speed>0</Fan2Speed>
+      <IsInServiceMode>false</IsInServiceMode>
+    </ServiceA>
+    <ServiceB>
+      <Fan1Speed>0</Fan1Speed>
+      <Fan2Speed>0</Fan2Speed>
+      <IsInServiceMode>false</IsInServiceMode>
+    </ServiceB>
+    <LogCountersA>
+      <OperationTime>0</OperationTime>
+      <NumberOfRevolutions>0</NumberOfRevolutions>
+      <VolumeLeftSeal>0</VolumeLeftSeal>
+      <VolumeRightSeal>0</VolumeRightSeal>
+    </LogCountersA>
+    <LogCountersB>
+      <OperationTime>0</OperationTime>
+      <NumberOfRevolutions>0</NumberOfRevolutions>
+      <VolumeLeftSeal>0</VolumeLeftSeal>
+      <VolumeRightSeal>0</VolumeRightSeal>
+    </LogCountersB>
+  </LcPump>
+</SparkStatus>

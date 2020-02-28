@@ -1,0 +1,4106 @@
+<Parameter>
+  <ConfigInfo>C:\Users\Public\Molana\Sim\Config-S 100 Default-130703.c3n
+A0000200001
+IONICS 3Q 120
+0
+0
+0
+0
+172.16.0.2
+F
+0
+</ConfigInfo>
+  <IsExpertDependence>Yes</IsExpertDependence>
+  <ScanType name="Q1Positive">
+    <ParaRow Row="1">
+      <Parameter>Q1 RF</Parameter>
+      <Channal>1</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>400</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 RF</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="2">
+      <Parameter>Q1 DC</Parameter>
+      <Channal>4</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 DC</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="3">
+      <Parameter>Q1 RR</Parameter>
+      <Channal>7</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>64000</UserMax>
+      <UserDefault>32768</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 PW</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="4">
+      <Parameter>Q2 RF</Parameter>
+      <Channal>2</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>400</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 RF</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="5">
+      <Parameter>Q2 DC</Parameter>
+      <Channal>5</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 DC</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="6">
+      <Parameter>Q2 RR</Parameter>
+      <Channal>9</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>64000</UserMax>
+      <UserDefault>32768</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 PW</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="7">
+      <Parameter>M1 RF</Parameter>
+      <Channal>3</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>600</UserMax>
+      <UserDefault>500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>14.7</CalibrationSlope>
+      <ParameterType>6</ParameterType>
+      <Description>Multipole 1 RF</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="8">
+      <Parameter>EV</Parameter>
+      <Channal>20</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>200</UserMax>
+      <UserDefault>100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Entrance Voltage</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="9">
+      <Parameter>ED</Parameter>
+      <Channal>21</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>200</UserMax>
+      <UserDefault>90</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.5</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Entrance Deflector</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="10">
+      <Parameter>M1</Parameter>
+      <Channal>19</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-1</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.6</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="11">
+      <Parameter>L1</Parameter>
+      <Channal>18</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-2</UserDefault>
+      <CalibrationOffset>32760</CalibrationOffset>
+      <CalibrationSlope>-65.9</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole Lens 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="12">
+      <Parameter>M2</Parameter>
+      <Channal>22</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-3</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-66</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole 2</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="13">
+      <Parameter>L2</Parameter>
+      <Channal>11</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-4</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.9</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole Lens 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="14">
+      <Parameter>PF</Parameter>
+      <Channal>12</Channal>
+      <UserMin>-50</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-15</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Prefilter 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="15">
+      <Parameter>Q1</Parameter>
+      <Channal>6</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-4.5</UserDefault>
+      <CalibrationOffset>32755</CalibrationOffset>
+      <CalibrationSlope>-131.3</CalibrationSlope>
+      <ParameterType>11</ParameterType>
+      <Description>Quadrupole 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Resolution</Location>
+    </ParaRow>
+    <ParaRow Row="16">
+      <Parameter>CC L1</Parameter>
+      <Channal>13</Channal>
+      <UserMin>-100</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>-10</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="17">
+      <Parameter>CC L2</Parameter>
+      <Channal>14</Channal>
+      <UserMin>-400</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-120</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 2</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="18">
+      <Parameter>CC</Parameter>
+      <Channal>23</Channal>
+      <UserMin>-150</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-50</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Energy</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="19">
+      <Parameter>CC AF</Parameter>
+      <Channal>10</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Axial Field</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="20">
+      <Parameter>CC L3</Parameter>
+      <Channal>15</Channal>
+      <UserMin>-400</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-51</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 3</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="21">
+      <Parameter>CC L4</Parameter>
+      <Channal>16</Channal>
+      <UserMin>-400</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-62</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 4</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="22">
+      <Parameter>Q2</Parameter>
+      <Channal>8</Channal>
+      <UserMin>-150</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-52</UserDefault>
+      <CalibrationOffset>32756</CalibrationOffset>
+      <CalibrationSlope>-131.3</CalibrationSlope>
+      <ParameterType>11</ParameterType>
+      <Description>Quadrupole 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Resolution</Location>
+    </ParaRow>
+    <ParaRow Row="23">
+      <Parameter>ID</Parameter>
+      <Channal>17</Channal>
+      <UserMin>-400</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-90</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Detector Deflector</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="24">
+      <Parameter>DISC</Parameter>
+      <Channal>32</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2000</UserMax>
+      <UserDefault>15</UserDefault>
+      <CalibrationOffset>-5</CalibrationOffset>
+      <CalibrationSlope>1.23</CalibrationSlope>
+      <ParameterType>18</ParameterType>
+      <Description>Discriminator</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="25">
+      <Parameter>DV</Parameter>
+      <Channal>34</Channal>
+      <UserMin>1600</UserMin>
+      <UserMax>3500</UserMax>
+      <UserDefault>2000</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.415</CalibrationSlope>
+      <ParameterType>18</ParameterType>
+      <Description>Detector Voltage</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="26">
+      <Parameter>DET horn</Parameter>
+      <Channal>200</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5500</UserMax>
+      <UserDefault>5500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.415</CalibrationSlope>
+      <ParameterType>16</ParameterType>
+      <Description>Detector Horn</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="27">
+      <Parameter>LS400A</Parameter>
+      <Channal>36</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>420</UserMax>
+      <UserDefault>420</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply A +400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="28">
+      <Parameter>LS-400A</Parameter>
+      <Channal>37</Channal>
+      <UserMin>-420</UserMin>
+      <UserMax>-55</UserMax>
+      <UserDefault>-420</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply A -400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="29">
+      <Parameter>LS400B</Parameter>
+      <Channal>38</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>420</UserMax>
+      <UserDefault>420</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply B +400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="30">
+      <Parameter>LS-400B</Parameter>
+      <Channal>39</Channal>
+      <UserMin>-420</UserMin>
+      <UserMax>-55</UserMax>
+      <UserDefault>-420</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply B  -400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="31">
+      <Parameter>QPS800</Parameter>
+      <Channal>40</Channal>
+      <UserMin>110</UserMin>
+      <UserMax>600</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>4.25</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quad Power Supply +800</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="32">
+      <Parameter>QPS-800</Parameter>
+      <Channal>41</Channal>
+      <UserMin>-110</UserMin>
+      <UserMax>-110</UserMax>
+      <UserDefault>-600</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-4.2</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quad Power Supply -800</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="33">
+      <Parameter>DG</Parameter>
+      <Channal>26</Channal>
+      <UserMin>50</UserMin>
+      <UserMax>300</UserMax>
+      <UserDefault>80</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Drying Gas</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="34">
+      <Parameter>NG1</Parameter>
+      <Channal>27</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>450</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Nebulizer Gas 1</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="35">
+      <Parameter>HG1</Parameter>
+      <Channal>29</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>350</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Heating Gas 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="36">
+      <Parameter>NG2</Parameter>
+      <Channal>28</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>450</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Nebulizer Gas 2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="37">
+      <Parameter>HG2</Parameter>
+      <Channal>30</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>350</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Heating Gas 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="38">
+      <Parameter>CC P</Parameter>
+      <Channal>43</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>6</ParameterType>
+      <Description>Collision Pressure</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="39">
+      <Parameter>SX</Parameter>
+      <Channal>42</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source Exhaust</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="40">
+      <Parameter>ISV2</Parameter>
+      <Channal>204</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5850</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.0436</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>ElectroSpray V2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="41">
+      <Parameter>ISV1</Parameter>
+      <Channal>203</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5850</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.0436</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>ElectroSpray V1</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="42">
+      <Parameter>CD</Parameter>
+      <Channal>202</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>51</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>Corona Discharge</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="43">
+      <Parameter>CAP</Parameter>
+      <Channal>201</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>1100</UserMax>
+      <UserDefault>1000</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.22</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>Curtain Cap</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="44">
+      <Parameter>HSID T</Parameter>
+      <Channal>81</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>320</UserMax>
+      <UserDefault>200</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>HSID Temperature</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="45">
+      <Parameter>P1 T</Parameter>
+      <Channal>86</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source 1 Temp</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="46">
+      <Parameter>P2 T</Parameter>
+      <Channal>84</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source 2 Temp</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+  </ScanType>
+  <ScanType name="Q1Negative">
+    <ParaRow Row="1">
+      <Parameter>Q1 RF</Parameter>
+      <Channal>1</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>400</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 RF</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="2">
+      <Parameter>Q1 DC</Parameter>
+      <Channal>4</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 DC</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="3">
+      <Parameter>Q1 RR</Parameter>
+      <Channal>7</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>64000</UserMax>
+      <UserDefault>32768</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 PW</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="4">
+      <Parameter>Q2 RF</Parameter>
+      <Channal>2</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>400</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 RF</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="5">
+      <Parameter>Q2 DC</Parameter>
+      <Channal>5</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 DC</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="6">
+      <Parameter>Q2 RR</Parameter>
+      <Channal>9</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>64000</UserMax>
+      <UserDefault>32768</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 PW</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="7">
+      <Parameter>M1 RF</Parameter>
+      <Channal>3</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>600</UserMax>
+      <UserDefault>500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>14.7</CalibrationSlope>
+      <ParameterType>6</ParameterType>
+      <Description>Multipole 1 RF</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="8">
+      <Parameter>EV</Parameter>
+      <Channal>20</Channal>
+      <UserMin>-200</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Entrance Voltage</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="9">
+      <Parameter>ED</Parameter>
+      <Channal>21</Channal>
+      <UserMin>-200</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-90</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.5</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Entrance Deflector</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="10">
+      <Parameter>M1</Parameter>
+      <Channal>19</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>1</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.6</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="11">
+      <Parameter>L1</Parameter>
+      <Channal>18</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>2</UserDefault>
+      <CalibrationOffset>32760</CalibrationOffset>
+      <CalibrationSlope>-65.9</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole Lens 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="12">
+      <Parameter>M2</Parameter>
+      <Channal>22</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>3</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-66</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole 2</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="13">
+      <Parameter>L2</Parameter>
+      <Channal>11</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>4</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.9</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole Lens 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="14">
+      <Parameter>PF</Parameter>
+      <Channal>12</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>50</UserMax>
+      <UserDefault>15</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Prefilter 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="15">
+      <Parameter>Q1</Parameter>
+      <Channal>6</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>4.5</UserDefault>
+      <CalibrationOffset>32755</CalibrationOffset>
+      <CalibrationSlope>-131.3</CalibrationSlope>
+      <ParameterType>11</ParameterType>
+      <Description>Quadrupole 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Resolution</Location>
+    </ParaRow>
+    <ParaRow Row="16">
+      <Parameter>CC L1</Parameter>
+      <Channal>13</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>100</UserMax>
+      <UserDefault>10</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="17">
+      <Parameter>CC L2</Parameter>
+      <Channal>14</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>120</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 2</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="18">
+      <Parameter>CC</Parameter>
+      <Channal>23</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>150</UserMax>
+      <UserDefault>50</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Energy</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="19">
+      <Parameter>CC AF</Parameter>
+      <Channal>10</Channal>
+      <UserMin>-400</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Axial Field</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="20">
+      <Parameter>CC L3</Parameter>
+      <Channal>15</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>51</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 3</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="21">
+      <Parameter>CC L4</Parameter>
+      <Channal>16</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>62</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 4</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="22">
+      <Parameter>Q2</Parameter>
+      <Channal>8</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>150</UserMax>
+      <UserDefault>52</UserDefault>
+      <CalibrationOffset>32756</CalibrationOffset>
+      <CalibrationSlope>-131.3</CalibrationSlope>
+      <ParameterType>11</ParameterType>
+      <Description>Quadrupole 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Resolution</Location>
+    </ParaRow>
+    <ParaRow Row="23">
+      <Parameter>ID</Parameter>
+      <Channal>17</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>110</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Detector Deflector</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="24">
+      <Parameter>DISC</Parameter>
+      <Channal>32</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2000</UserMax>
+      <UserDefault>15</UserDefault>
+      <CalibrationOffset>-5</CalibrationOffset>
+      <CalibrationSlope>1.23</CalibrationSlope>
+      <ParameterType>18</ParameterType>
+      <Description>Discriminator</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="25">
+      <Parameter>DV</Parameter>
+      <Channal>34</Channal>
+      <UserMin>1600</UserMin>
+      <UserMax>3500</UserMax>
+      <UserDefault>2000</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.415</CalibrationSlope>
+      <ParameterType>18</ParameterType>
+      <Description>Detector Voltage</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="26">
+      <Parameter>DET horn</Parameter>
+      <Channal>200</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5500</UserMax>
+      <UserDefault>5500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.415</CalibrationSlope>
+      <ParameterType>16</ParameterType>
+      <Description>Detector Horn</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="27">
+      <Parameter>LS400A</Parameter>
+      <Channal>36</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>420</UserMax>
+      <UserDefault>420</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply A +400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="28">
+      <Parameter>LS-400A</Parameter>
+      <Channal>37</Channal>
+      <UserMin>-420</UserMin>
+      <UserMax>-55</UserMax>
+      <UserDefault>-420</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply A -400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="29">
+      <Parameter>LS400B</Parameter>
+      <Channal>38</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>420</UserMax>
+      <UserDefault>420</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply B +400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="30">
+      <Parameter>LS-400B</Parameter>
+      <Channal>39</Channal>
+      <UserMin>-420</UserMin>
+      <UserMax>-55</UserMax>
+      <UserDefault>-420</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply B  -400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="31">
+      <Parameter>QPS800</Parameter>
+      <Channal>40</Channal>
+      <UserMin>110</UserMin>
+      <UserMax>600</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>4.25</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quad Power Supply +800</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="32">
+      <Parameter>QPS-800</Parameter>
+      <Channal>41</Channal>
+      <UserMin>-110</UserMin>
+      <UserMax>-110</UserMax>
+      <UserDefault>-600</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-4.2</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quad Power Supply -800</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="33">
+      <Parameter>DG</Parameter>
+      <Channal>26</Channal>
+      <UserMin>50</UserMin>
+      <UserMax>300</UserMax>
+      <UserDefault>80</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Drying Gas</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="34">
+      <Parameter>NG1</Parameter>
+      <Channal>27</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>450</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Nebulizer Gas 1</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="35">
+      <Parameter>HG1</Parameter>
+      <Channal>29</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>350</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Heating Gas 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="36">
+      <Parameter>NG2</Parameter>
+      <Channal>28</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>450</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Nebulizer Gas 2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="37">
+      <Parameter>HG2</Parameter>
+      <Channal>30</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>350</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Heating Gas 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="38">
+      <Parameter>CC P</Parameter>
+      <Channal>43</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>6</ParameterType>
+      <Description>Collision Pressure</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="39">
+      <Parameter>SX</Parameter>
+      <Channal>42</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source Exhaust</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="40">
+      <Parameter>ISV2</Parameter>
+      <Channal>204</Channal>
+      <UserMin>-5850</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.0436</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>ElectroSpray V2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="41">
+      <Parameter>ISV1</Parameter>
+      <Channal>203</Channal>
+      <UserMin>-5850</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.0436</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>ElectroSpray V1</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="42">
+      <Parameter>CD</Parameter>
+      <Channal>202</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>51</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>Corona Discharge</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="43">
+      <Parameter>CAP</Parameter>
+      <Channal>201</Channal>
+      <UserMin>-1100</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-1000</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.22</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>Curtain Cap</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="44">
+      <Parameter>HSID T</Parameter>
+      <Channal>81</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>320</UserMax>
+      <UserDefault>200</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>HSID Temperature</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="45">
+      <Parameter>P1 T</Parameter>
+      <Channal>86</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source 1 Temp</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="46">
+      <Parameter>P2 T</Parameter>
+      <Channal>84</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source 2 Temp</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+  </ScanType>
+  <ScanType name="Q2Positive">
+    <ParaRow Row="1">
+      <Parameter>Q1 RF</Parameter>
+      <Channal>1</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>400</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 RF</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="2">
+      <Parameter>Q1 DC</Parameter>
+      <Channal>4</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 DC</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="3">
+      <Parameter>Q1 RR</Parameter>
+      <Channal>7</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>64000</UserMax>
+      <UserDefault>32768</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 PW</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="4">
+      <Parameter>Q2 RF</Parameter>
+      <Channal>2</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>400</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 RF</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="5">
+      <Parameter>Q2 DC</Parameter>
+      <Channal>5</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 DC</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="6">
+      <Parameter>Q2 RR</Parameter>
+      <Channal>9</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>64000</UserMax>
+      <UserDefault>32768</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 PW</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="7">
+      <Parameter>M1 RF</Parameter>
+      <Channal>3</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>600</UserMax>
+      <UserDefault>500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>14.7</CalibrationSlope>
+      <ParameterType>6</ParameterType>
+      <Description>Multipole 1 RF</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="8">
+      <Parameter>EV</Parameter>
+      <Channal>20</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>200</UserMax>
+      <UserDefault>100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Entrance Voltage</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="9">
+      <Parameter>ED</Parameter>
+      <Channal>21</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>200</UserMax>
+      <UserDefault>90</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.5</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Entrance Deflector</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="10">
+      <Parameter>M1</Parameter>
+      <Channal>19</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-1</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.6</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="11">
+      <Parameter>L1</Parameter>
+      <Channal>18</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-2</UserDefault>
+      <CalibrationOffset>32760</CalibrationOffset>
+      <CalibrationSlope>-65.9</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole Lens 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="12">
+      <Parameter>M2</Parameter>
+      <Channal>22</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-3</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-66</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole 2</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="13">
+      <Parameter>L2</Parameter>
+      <Channal>11</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-4</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.9</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole Lens 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="14">
+      <Parameter>PF</Parameter>
+      <Channal>12</Channal>
+      <UserMin>-50</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-15</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Prefilter 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="15">
+      <Parameter>Q1</Parameter>
+      <Channal>6</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-4.5</UserDefault>
+      <CalibrationOffset>32755</CalibrationOffset>
+      <CalibrationSlope>-131.3</CalibrationSlope>
+      <ParameterType>11</ParameterType>
+      <Description>Quadrupole 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Resolution</Location>
+    </ParaRow>
+    <ParaRow Row="16">
+      <Parameter>CC L1</Parameter>
+      <Channal>13</Channal>
+      <UserMin>-100</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>-10</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="17">
+      <Parameter>CC L2</Parameter>
+      <Channal>14</Channal>
+      <UserMin>-400</UserMin>
+      <UserMax>-10</UserMax>
+      <UserDefault>-100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="18">
+      <Parameter>CC</Parameter>
+      <Channal>23</Channal>
+      <UserMin>-150</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-15</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Energy</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="19">
+      <Parameter>CC AF</Parameter>
+      <Channal>10</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Axial Field</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="20">
+      <Parameter>CC L3</Parameter>
+      <Channal>15</Channal>
+      <UserMin>-160</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-16</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 3</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="21">
+      <Parameter>CC L4</Parameter>
+      <Channal>16</Channal>
+      <UserMin>-400</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-27</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 4</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="22">
+      <Parameter>Q2</Parameter>
+      <Channal>8</Channal>
+      <UserMin>-150</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-17</UserDefault>
+      <CalibrationOffset>32756</CalibrationOffset>
+      <CalibrationSlope>-131.3</CalibrationSlope>
+      <ParameterType>11</ParameterType>
+      <Description>Quadrupole 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Resolution</Location>
+    </ParaRow>
+    <ParaRow Row="23">
+      <Parameter>ID</Parameter>
+      <Channal>17</Channal>
+      <UserMin>-400</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-105</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Detector Deflector</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="24">
+      <Parameter>DISC</Parameter>
+      <Channal>32</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2000</UserMax>
+      <UserDefault>15</UserDefault>
+      <CalibrationOffset>-5</CalibrationOffset>
+      <CalibrationSlope>1.23</CalibrationSlope>
+      <ParameterType>18</ParameterType>
+      <Description>Discriminator</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="25">
+      <Parameter>DV</Parameter>
+      <Channal>34</Channal>
+      <UserMin>1600</UserMin>
+      <UserMax>3500</UserMax>
+      <UserDefault>2000</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.415</CalibrationSlope>
+      <ParameterType>18</ParameterType>
+      <Description>Detector Voltage</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="26">
+      <Parameter>DET horn</Parameter>
+      <Channal>200</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5500</UserMax>
+      <UserDefault>5500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.415</CalibrationSlope>
+      <ParameterType>16</ParameterType>
+      <Description>Detector Horn</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="27">
+      <Parameter>LS400A</Parameter>
+      <Channal>36</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>420</UserMax>
+      <UserDefault>420</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply A +400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="28">
+      <Parameter>LS-400A</Parameter>
+      <Channal>37</Channal>
+      <UserMin>-420</UserMin>
+      <UserMax>-55</UserMax>
+      <UserDefault>-420</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply A -400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="29">
+      <Parameter>LS400B</Parameter>
+      <Channal>38</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>420</UserMax>
+      <UserDefault>420</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply B +400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="30">
+      <Parameter>LS-400B</Parameter>
+      <Channal>39</Channal>
+      <UserMin>-420</UserMin>
+      <UserMax>-55</UserMax>
+      <UserDefault>-420</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply B  -400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="31">
+      <Parameter>QPS800</Parameter>
+      <Channal>40</Channal>
+      <UserMin>110</UserMin>
+      <UserMax>600</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>4.25</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quad Power Supply +800</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="32">
+      <Parameter>QPS-800</Parameter>
+      <Channal>41</Channal>
+      <UserMin>-110</UserMin>
+      <UserMax>-110</UserMax>
+      <UserDefault>-600</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-4.2</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quad Power Supply -800</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="33">
+      <Parameter>DG</Parameter>
+      <Channal>26</Channal>
+      <UserMin>50</UserMin>
+      <UserMax>300</UserMax>
+      <UserDefault>80</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Drying Gas</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="34">
+      <Parameter>NG1</Parameter>
+      <Channal>27</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>450</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Nebulizer Gas 1</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="35">
+      <Parameter>HG1</Parameter>
+      <Channal>29</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>350</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Heating Gas 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="36">
+      <Parameter>NG2</Parameter>
+      <Channal>28</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>450</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Nebulizer Gas 2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="37">
+      <Parameter>HG2</Parameter>
+      <Channal>30</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>350</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Heating Gas 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="38">
+      <Parameter>CC P</Parameter>
+      <Channal>43</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>410</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>6</ParameterType>
+      <Description>Collision Pressure</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="39">
+      <Parameter>SX</Parameter>
+      <Channal>42</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source Exhaust</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="40">
+      <Parameter>ISV2</Parameter>
+      <Channal>204</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5850</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.0436</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>ElectroSpray V2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="41">
+      <Parameter>ISV1</Parameter>
+      <Channal>203</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5850</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.0436</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>ElectroSpray V1</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="42">
+      <Parameter>CD</Parameter>
+      <Channal>202</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>51</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>Corona Discharge</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="43">
+      <Parameter>CAP</Parameter>
+      <Channal>201</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>1100</UserMax>
+      <UserDefault>1000</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.22</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>Curtain Cap</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="44">
+      <Parameter>HSID T</Parameter>
+      <Channal>81</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>320</UserMax>
+      <UserDefault>200</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>HSID Temperature</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="45">
+      <Parameter>P1 T</Parameter>
+      <Channal>86</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source 1 Temp</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="46">
+      <Parameter>P2 T</Parameter>
+      <Channal>84</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source 2 Temp</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+  </ScanType>
+  <ScanType name="Q2Negative">
+    <ParaRow Row="1">
+      <Parameter>Q1 RF</Parameter>
+      <Channal>1</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>400</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 RF</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="2">
+      <Parameter>Q1 DC</Parameter>
+      <Channal>4</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 DC</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="3">
+      <Parameter>Q1 RR</Parameter>
+      <Channal>7</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>64000</UserMax>
+      <UserDefault>32768</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 PW</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="4">
+      <Parameter>Q2 RF</Parameter>
+      <Channal>2</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>400</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 RF</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="5">
+      <Parameter>Q2 DC</Parameter>
+      <Channal>5</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 DC</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="6">
+      <Parameter>Q2 RR</Parameter>
+      <Channal>9</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>64000</UserMax>
+      <UserDefault>32768</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 PW</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="7">
+      <Parameter>M1 RF</Parameter>
+      <Channal>3</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>600</UserMax>
+      <UserDefault>500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>14.7</CalibrationSlope>
+      <ParameterType>6</ParameterType>
+      <Description>Multipole 1 RF</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="8">
+      <Parameter>EV</Parameter>
+      <Channal>20</Channal>
+      <UserMin>-200</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Entrance Voltage</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="9">
+      <Parameter>ED</Parameter>
+      <Channal>21</Channal>
+      <UserMin>-200</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-90</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.5</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Entrance Deflector</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="10">
+      <Parameter>M1</Parameter>
+      <Channal>19</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>1</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.6</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="11">
+      <Parameter>L1</Parameter>
+      <Channal>18</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>2</UserDefault>
+      <CalibrationOffset>32760</CalibrationOffset>
+      <CalibrationSlope>-65.9</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole Lens 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="12">
+      <Parameter>M2</Parameter>
+      <Channal>22</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>3</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-66</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole 2</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="13">
+      <Parameter>L2</Parameter>
+      <Channal>11</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>4</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.9</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole Lens 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="14">
+      <Parameter>PF</Parameter>
+      <Channal>12</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>50</UserMax>
+      <UserDefault>15</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Prefilter 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="15">
+      <Parameter>Q1</Parameter>
+      <Channal>6</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>4.5</UserDefault>
+      <CalibrationOffset>32755</CalibrationOffset>
+      <CalibrationSlope>-131.3</CalibrationSlope>
+      <ParameterType>11</ParameterType>
+      <Description>Quadrupole 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Resolution</Location>
+    </ParaRow>
+    <ParaRow Row="16">
+      <Parameter>CC L1</Parameter>
+      <Channal>13</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>100</UserMax>
+      <UserDefault>10</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="17">
+      <Parameter>CC L2</Parameter>
+      <Channal>14</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="18">
+      <Parameter>CC</Parameter>
+      <Channal>23</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>150</UserMax>
+      <UserDefault>15</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Energy</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="19">
+      <Parameter>CC AF</Parameter>
+      <Channal>10</Channal>
+      <UserMin>-400</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Axial Field</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="20">
+      <Parameter>CC L3</Parameter>
+      <Channal>15</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>16</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 3</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="21">
+      <Parameter>CC L4</Parameter>
+      <Channal>16</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>27</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 4</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="22">
+      <Parameter>Q2</Parameter>
+      <Channal>8</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>150</UserMax>
+      <UserDefault>17</UserDefault>
+      <CalibrationOffset>32756</CalibrationOffset>
+      <CalibrationSlope>-131.3</CalibrationSlope>
+      <ParameterType>11</ParameterType>
+      <Description>Quadrupole 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Resolution</Location>
+    </ParaRow>
+    <ParaRow Row="23">
+      <Parameter>ID</Parameter>
+      <Channal>17</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>125</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Detector Deflector</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="24">
+      <Parameter>DISC</Parameter>
+      <Channal>32</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2000</UserMax>
+      <UserDefault>15</UserDefault>
+      <CalibrationOffset>-5</CalibrationOffset>
+      <CalibrationSlope>1.23</CalibrationSlope>
+      <ParameterType>18</ParameterType>
+      <Description>Discriminator</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="25">
+      <Parameter>DV</Parameter>
+      <Channal>34</Channal>
+      <UserMin>1600</UserMin>
+      <UserMax>3500</UserMax>
+      <UserDefault>2000</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.415</CalibrationSlope>
+      <ParameterType>18</ParameterType>
+      <Description>Detector Voltage</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="26">
+      <Parameter>DET horn</Parameter>
+      <Channal>200</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5500</UserMax>
+      <UserDefault>5500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.415</CalibrationSlope>
+      <ParameterType>16</ParameterType>
+      <Description>Detector Horn</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="27">
+      <Parameter>LS400A</Parameter>
+      <Channal>36</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>420</UserMax>
+      <UserDefault>420</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply A +400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="28">
+      <Parameter>LS-400A</Parameter>
+      <Channal>37</Channal>
+      <UserMin>-420</UserMin>
+      <UserMax>-55</UserMax>
+      <UserDefault>-420</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply A -400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="29">
+      <Parameter>LS400B</Parameter>
+      <Channal>38</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>420</UserMax>
+      <UserDefault>420</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply B +400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="30">
+      <Parameter>LS-400B</Parameter>
+      <Channal>39</Channal>
+      <UserMin>-420</UserMin>
+      <UserMax>-55</UserMax>
+      <UserDefault>-420</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply B  -400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="31">
+      <Parameter>QPS800</Parameter>
+      <Channal>40</Channal>
+      <UserMin>110</UserMin>
+      <UserMax>600</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>4.25</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quad Power Supply +800</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="32">
+      <Parameter>QPS-800</Parameter>
+      <Channal>41</Channal>
+      <UserMin>-110</UserMin>
+      <UserMax>-110</UserMax>
+      <UserDefault>-600</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-4.2</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quad Power Supply -800</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="33">
+      <Parameter>DG</Parameter>
+      <Channal>26</Channal>
+      <UserMin>50</UserMin>
+      <UserMax>300</UserMax>
+      <UserDefault>80</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Drying Gas</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="34">
+      <Parameter>NG1</Parameter>
+      <Channal>27</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>450</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Nebulizer Gas 1</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="35">
+      <Parameter>HG1</Parameter>
+      <Channal>29</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>350</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Heating Gas 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="36">
+      <Parameter>NG2</Parameter>
+      <Channal>28</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>450</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Nebulizer Gas 2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="37">
+      <Parameter>HG2</Parameter>
+      <Channal>30</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>350</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Heating Gas 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="38">
+      <Parameter>CC P</Parameter>
+      <Channal>43</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>410</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>6</ParameterType>
+      <Description>Collision Pressure</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="39">
+      <Parameter>SX</Parameter>
+      <Channal>42</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source Exhaust</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="40">
+      <Parameter>ISV2</Parameter>
+      <Channal>204</Channal>
+      <UserMin>-5850</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.0436</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>ElectroSpray V2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="41">
+      <Parameter>ISV1</Parameter>
+      <Channal>203</Channal>
+      <UserMin>-5850</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.0436</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>ElectroSpray V1</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="42">
+      <Parameter>CD</Parameter>
+      <Channal>202</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>51</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>Corona Discharge</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="43">
+      <Parameter>CAP</Parameter>
+      <Channal>201</Channal>
+      <UserMin>-1100</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-1000</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.22</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>Curtain Cap</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="44">
+      <Parameter>HSID T</Parameter>
+      <Channal>81</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>320</UserMax>
+      <UserDefault>200</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>HSID Temperature</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="45">
+      <Parameter>P1 T</Parameter>
+      <Channal>86</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source 1 Temp</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="46">
+      <Parameter>P2 T</Parameter>
+      <Channal>84</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source 2 Temp</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+  </ScanType>
+  <ScanType name="MS/MSPositive">
+    <ParaRow Row="1">
+      <Parameter>Q1 RF</Parameter>
+      <Channal>1</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>400</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 RF</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="2">
+      <Parameter>Q1 DC</Parameter>
+      <Channal>4</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 DC</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="3">
+      <Parameter>Q1 RR</Parameter>
+      <Channal>7</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>64000</UserMax>
+      <UserDefault>32768</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 PW</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="4">
+      <Parameter>Q2 RF</Parameter>
+      <Channal>2</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>400</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 RF</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="5">
+      <Parameter>Q2 DC</Parameter>
+      <Channal>5</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 DC</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="6">
+      <Parameter>Q2 RR</Parameter>
+      <Channal>9</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>64000</UserMax>
+      <UserDefault>32768</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 PW</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="7">
+      <Parameter>M1 RF</Parameter>
+      <Channal>3</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>600</UserMax>
+      <UserDefault>500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>14.7</CalibrationSlope>
+      <ParameterType>6</ParameterType>
+      <Description>Multipole 1 RF</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="8">
+      <Parameter>EV</Parameter>
+      <Channal>20</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>200</UserMax>
+      <UserDefault>100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Entrance Voltage</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="9">
+      <Parameter>ED</Parameter>
+      <Channal>21</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>200</UserMax>
+      <UserDefault>90</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.5</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Entrance Deflector</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="10">
+      <Parameter>M1</Parameter>
+      <Channal>19</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-1</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.6</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="11">
+      <Parameter>L1</Parameter>
+      <Channal>18</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-2</UserDefault>
+      <CalibrationOffset>32760</CalibrationOffset>
+      <CalibrationSlope>-65.9</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole Lens 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="12">
+      <Parameter>M2</Parameter>
+      <Channal>22</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-3</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-66</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole 2</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="13">
+      <Parameter>L2</Parameter>
+      <Channal>11</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-4</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.9</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole Lens 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="14">
+      <Parameter>PF</Parameter>
+      <Channal>12</Channal>
+      <UserMin>-50</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>-15</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Prefilter 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="15">
+      <Parameter>Q1</Parameter>
+      <Channal>6</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-4.5</UserDefault>
+      <CalibrationOffset>32755</CalibrationOffset>
+      <CalibrationSlope>-131.3</CalibrationSlope>
+      <ParameterType>11</ParameterType>
+      <Description>Quadrupole 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Resolution</Location>
+    </ParaRow>
+    <ParaRow Row="16">
+      <Parameter>CC L1</Parameter>
+      <Channal>13</Channal>
+      <UserMin>-100</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>-10</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="17">
+      <Parameter>CC L2</Parameter>
+      <Channal>14</Channal>
+      <UserMin>-400</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="18">
+      <Parameter>CC</Parameter>
+      <Channal>23</Channal>
+      <UserMin>-150</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-50</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Energy</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="19">
+      <Parameter>CC AF</Parameter>
+      <Channal>10</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Axial Field</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="20">
+      <Parameter>CC L3</Parameter>
+      <Channal>15</Channal>
+      <UserMin>-200</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-51</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 3</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="21">
+      <Parameter>CC L4</Parameter>
+      <Channal>16</Channal>
+      <UserMin>-400</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-62</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 4</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="22">
+      <Parameter>Q2</Parameter>
+      <Channal>8</Channal>
+      <UserMin>-150</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-52</UserDefault>
+      <CalibrationOffset>32756</CalibrationOffset>
+      <CalibrationSlope>-131.3</CalibrationSlope>
+      <ParameterType>11</ParameterType>
+      <Description>Quadrupole 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Resolution</Location>
+    </ParaRow>
+    <ParaRow Row="23">
+      <Parameter>ID</Parameter>
+      <Channal>17</Channal>
+      <UserMin>-400</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-140</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Detector Deflector</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="24">
+      <Parameter>DISC</Parameter>
+      <Channal>32</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2000</UserMax>
+      <UserDefault>15</UserDefault>
+      <CalibrationOffset>-5</CalibrationOffset>
+      <CalibrationSlope>1.23</CalibrationSlope>
+      <ParameterType>18</ParameterType>
+      <Description>Discriminator</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="25">
+      <Parameter>DV</Parameter>
+      <Channal>34</Channal>
+      <UserMin>1600</UserMin>
+      <UserMax>3500</UserMax>
+      <UserDefault>2000</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.415</CalibrationSlope>
+      <ParameterType>18</ParameterType>
+      <Description>Detector Voltage</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="26">
+      <Parameter>DET horn</Parameter>
+      <Channal>200</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5500</UserMax>
+      <UserDefault>5500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.415</CalibrationSlope>
+      <ParameterType>16</ParameterType>
+      <Description>Detector Horn</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="27">
+      <Parameter>LS400A</Parameter>
+      <Channal>36</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>420</UserMax>
+      <UserDefault>420</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply A +400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="28">
+      <Parameter>LS-400A</Parameter>
+      <Channal>37</Channal>
+      <UserMin>-420</UserMin>
+      <UserMax>-55</UserMax>
+      <UserDefault>-420</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply A -400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="29">
+      <Parameter>LS400B</Parameter>
+      <Channal>38</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>420</UserMax>
+      <UserDefault>420</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply B +400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="30">
+      <Parameter>LS-400B</Parameter>
+      <Channal>39</Channal>
+      <UserMin>-420</UserMin>
+      <UserMax>-55</UserMax>
+      <UserDefault>-420</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply B  -400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="31">
+      <Parameter>QPS800</Parameter>
+      <Channal>40</Channal>
+      <UserMin>110</UserMin>
+      <UserMax>600</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>4.25</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quad Power Supply +800</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="32">
+      <Parameter>QPS-800</Parameter>
+      <Channal>41</Channal>
+      <UserMin>-110</UserMin>
+      <UserMax>-110</UserMax>
+      <UserDefault>-600</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-4.2</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quad Power Supply -800</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="33">
+      <Parameter>DG</Parameter>
+      <Channal>26</Channal>
+      <UserMin>50</UserMin>
+      <UserMax>200</UserMax>
+      <UserDefault>80</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Drying Gas</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="34">
+      <Parameter>NG1</Parameter>
+      <Channal>27</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>450</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Nebulizer Gas 1</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="35">
+      <Parameter>HG1</Parameter>
+      <Channal>29</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>350</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Heating Gas 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="36">
+      <Parameter>NG2</Parameter>
+      <Channal>28</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>450</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Nebulizer Gas 2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="37">
+      <Parameter>HG2</Parameter>
+      <Channal>30</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>350</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Heating Gas 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="38">
+      <Parameter>CC P</Parameter>
+      <Channal>43</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>410</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>6</ParameterType>
+      <Description>Collision Pressure</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="39">
+      <Parameter>SX</Parameter>
+      <Channal>42</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source Exhaust</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="40">
+      <Parameter>ISV2</Parameter>
+      <Channal>204</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5850</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.0436</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>ElectroSpray V2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="41">
+      <Parameter>ISV1</Parameter>
+      <Channal>203</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5850</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.0436</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>ElectroSpray V1</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="42">
+      <Parameter>CD</Parameter>
+      <Channal>202</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>51</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>Corona Discharge</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="43">
+      <Parameter>CAP</Parameter>
+      <Channal>201</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>1100</UserMax>
+      <UserDefault>1000</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.22</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>Curtain Cap</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="44">
+      <Parameter>HSID T</Parameter>
+      <Channal>81</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>320</UserMax>
+      <UserDefault>200</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>HSID Temperature</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="45">
+      <Parameter>P1 T</Parameter>
+      <Channal>86</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source 1 Temp</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="46">
+      <Parameter>P2 T</Parameter>
+      <Channal>84</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source 2 Temp</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+  </ScanType>
+  <ScanType name="MS/MSNegative">
+    <ParaRow Row="1">
+      <Parameter>Q1 RF</Parameter>
+      <Channal>1</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>400</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 RF</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="2">
+      <Parameter>Q1 DC</Parameter>
+      <Channal>4</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 DC</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="3">
+      <Parameter>Q1 RR</Parameter>
+      <Channal>7</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>64000</UserMax>
+      <UserDefault>32768</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 1 PW</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="4">
+      <Parameter>Q2 RF</Parameter>
+      <Channal>2</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>400</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 RF</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="5">
+      <Parameter>Q2 DC</Parameter>
+      <Channal>5</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2150</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>218.45</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 DC</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="6">
+      <Parameter>Q2 RR</Parameter>
+      <Channal>9</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>64000</UserMax>
+      <UserDefault>32768</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quadrupole 2 PW</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="7">
+      <Parameter>M1 RF</Parameter>
+      <Channal>3</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>600</UserMax>
+      <UserDefault>500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>14.7</CalibrationSlope>
+      <ParameterType>6</ParameterType>
+      <Description>Multipole 1 RF</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="8">
+      <Parameter>EV</Parameter>
+      <Channal>20</Channal>
+      <UserMin>-200</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Entrance Voltage</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="9">
+      <Parameter>ED</Parameter>
+      <Channal>21</Channal>
+      <UserMin>-200</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-90</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.5</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Entrance Deflector</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="10">
+      <Parameter>M1</Parameter>
+      <Channal>19</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>1</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.6</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="11">
+      <Parameter>L1</Parameter>
+      <Channal>18</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>2</UserDefault>
+      <CalibrationOffset>32760</CalibrationOffset>
+      <CalibrationSlope>-65.9</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole Lens 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="12">
+      <Parameter>M2</Parameter>
+      <Channal>22</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>3</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-66</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole 2</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="13">
+      <Parameter>L2</Parameter>
+      <Channal>11</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>4</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.9</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Multipole Lens 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="14">
+      <Parameter>PF</Parameter>
+      <Channal>12</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>50</UserMax>
+      <UserDefault>15</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Prefilter 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="15">
+      <Parameter>Q1</Parameter>
+      <Channal>6</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>10</UserMax>
+      <UserDefault>4.5</UserDefault>
+      <CalibrationOffset>32755</CalibrationOffset>
+      <CalibrationSlope>-131.3</CalibrationSlope>
+      <ParameterType>11</ParameterType>
+      <Description>Quadrupole 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Resolution</Location>
+    </ParaRow>
+    <ParaRow Row="16">
+      <Parameter>CC L1</Parameter>
+      <Channal>13</Channal>
+      <UserMin>-10</UserMin>
+      <UserMax>100</UserMax>
+      <UserDefault>10</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="17">
+      <Parameter>CC L2</Parameter>
+      <Channal>14</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="18">
+      <Parameter>CC</Parameter>
+      <Channal>23</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>150</UserMax>
+      <UserDefault>50</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Energy</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="19">
+      <Parameter>CC AF</Parameter>
+      <Channal>10</Channal>
+      <UserMin>-400</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-100</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Axial Field</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="20">
+      <Parameter>CC L3</Parameter>
+      <Channal>15</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>200</UserMax>
+      <UserDefault>51</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 3</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="21">
+      <Parameter>CC L4</Parameter>
+      <Channal>16</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>62</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.7</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Collision Cell Lens 4</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="22">
+      <Parameter>Q2</Parameter>
+      <Channal>8</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>150</UserMax>
+      <UserDefault>52</UserDefault>
+      <CalibrationOffset>32756</CalibrationOffset>
+      <CalibrationSlope>-131.3</CalibrationSlope>
+      <ParameterType>11</ParameterType>
+      <Description>Quadrupole 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Resolution</Location>
+    </ParaRow>
+    <ParaRow Row="23">
+      <Parameter>ID</Parameter>
+      <Channal>17</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>400</UserMax>
+      <UserDefault>160</UserDefault>
+      <CalibrationOffset>32768</CalibrationOffset>
+      <CalibrationSlope>-65.8</CalibrationSlope>
+      <ParameterType>7</ParameterType>
+      <Description>Detector Deflector</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="24">
+      <Parameter>DISC</Parameter>
+      <Channal>32</Channal>
+      <UserMin>10</UserMin>
+      <UserMax>2000</UserMax>
+      <UserDefault>15</UserDefault>
+      <CalibrationOffset>-5</CalibrationOffset>
+      <CalibrationSlope>1.23</CalibrationSlope>
+      <ParameterType>18</ParameterType>
+      <Description>Discriminator</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="25">
+      <Parameter>DV</Parameter>
+      <Channal>34</Channal>
+      <UserMin>1600</UserMin>
+      <UserMax>3500</UserMax>
+      <UserDefault>2000</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.415</CalibrationSlope>
+      <ParameterType>18</ParameterType>
+      <Description>Detector Voltage</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="26">
+      <Parameter>DET horn</Parameter>
+      <Channal>200</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>5500</UserMax>
+      <UserDefault>5500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.415</CalibrationSlope>
+      <ParameterType>16</ParameterType>
+      <Description>Detector Horn</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Detector</Location>
+    </ParaRow>
+    <ParaRow Row="27">
+      <Parameter>LS400A</Parameter>
+      <Channal>36</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>420</UserMax>
+      <UserDefault>420</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply A +400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="28">
+      <Parameter>LS-400A</Parameter>
+      <Channal>37</Channal>
+      <UserMin>-420</UserMin>
+      <UserMax>-55</UserMax>
+      <UserDefault>-420</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply A -400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="29">
+      <Parameter>LS400B</Parameter>
+      <Channal>38</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>420</UserMax>
+      <UserDefault>420</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply B +400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="30">
+      <Parameter>LS-400B</Parameter>
+      <Channal>39</Channal>
+      <UserMin>-420</UserMin>
+      <UserMax>-55</UserMax>
+      <UserDefault>-420</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-8.4</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Lens Power Supply B  -400</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="31">
+      <Parameter>QPS800</Parameter>
+      <Channal>40</Channal>
+      <UserMin>110</UserMin>
+      <UserMax>600</UserMax>
+      <UserDefault>600</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>4.25</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quad Power Supply +800</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="32">
+      <Parameter>QPS-800</Parameter>
+      <Channal>41</Channal>
+      <UserMin>-110</UserMin>
+      <UserMax>-110</UserMax>
+      <UserDefault>-600</UserDefault>
+      <CalibrationOffset>-433</CalibrationOffset>
+      <CalibrationSlope>-4.2</CalibrationSlope>
+      <ParameterType>64</ParameterType>
+      <Description>Quad Power Supply -800</Description>
+      <Linked>
+      </Linked>
+      <Unlinked>
+      </Unlinked>
+      <Location>
+      </Location>
+    </ParaRow>
+    <ParaRow Row="33">
+      <Parameter>DG</Parameter>
+      <Channal>26</Channal>
+      <UserMin>50</UserMin>
+      <UserMax>300</UserMax>
+      <UserDefault>80</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Drying Gas</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="34">
+      <Parameter>NG1</Parameter>
+      <Channal>27</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>450</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Nebulizer Gas 1</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="35">
+      <Parameter>HG1</Parameter>
+      <Channal>29</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>350</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Heating Gas 1</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="36">
+      <Parameter>NG2</Parameter>
+      <Channal>28</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>450</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Nebulizer Gas 2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="37">
+      <Parameter>HG2</Parameter>
+      <Channal>30</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>350</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Heating Gas 2</Description>
+      <Linked>Equation</Linked>
+      <Unlinked>Equation</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="38">
+      <Parameter>CC P</Parameter>
+      <Channal>43</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>410</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>6</ParameterType>
+      <Description>Collision Pressure</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Compound</Location>
+    </ParaRow>
+    <ParaRow Row="39">
+      <Parameter>SX</Parameter>
+      <Channal>42</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>500</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>32.765</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source Exhaust</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="40">
+      <Parameter>ISV2</Parameter>
+      <Channal>204</Channal>
+      <UserMin>-5850</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.0436</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>ElectroSpray V2</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="41">
+      <Parameter>ISV1</Parameter>
+      <Channal>203</Channal>
+      <UserMin>-5850</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.0436</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>ElectroSpray V1</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="42">
+      <Parameter>CD</Parameter>
+      <Channal>202</Channal>
+      <UserMin>-5</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>51</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>Corona Discharge</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="43">
+      <Parameter>CAP</Parameter>
+      <Channal>201</Channal>
+      <UserMin>-1100</UserMin>
+      <UserMax>0</UserMax>
+      <UserDefault>-1000</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>0.22</CalibrationSlope>
+      <ParameterType>34</ParameterType>
+      <Description>Curtain Cap</Description>
+      <Linked>Fixed</Linked>
+      <Unlinked>Fixed</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="44">
+      <Parameter>HSID T</Parameter>
+      <Channal>81</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>320</UserMax>
+      <UserDefault>200</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>HSID Temperature</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="45">
+      <Parameter>P1 T</Parameter>
+      <Channal>86</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source 1 Temp</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+    <ParaRow Row="46">
+      <Parameter>P2 T</Parameter>
+      <Channal>84</Channal>
+      <UserMin>0</UserMin>
+      <UserMax>500</UserMax>
+      <UserDefault>0</UserDefault>
+      <CalibrationOffset>0</CalibrationOffset>
+      <CalibrationSlope>1</CalibrationSlope>
+      <ParameterType>32</ParameterType>
+      <Description>Source 2 Temp</Description>
+      <Linked>Operator</Linked>
+      <Unlinked>Operator</Unlinked>
+      <Location>Source</Location>
+    </ParaRow>
+  </ScanType>
+</Parameter>

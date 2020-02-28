@@ -1,0 +1,170 @@
+0	976190401	FPGA is idling
+4	0	FIFO Mis-Read #
+5	0	Ticks to do a runtime poll
+6	0	Time to Prepare Next Cycle (ticks)
+7	2	Total # of Experiments Ran
+0	0	Dual or Ramp Mode
+1	0	# of Active Channels
+2	0	Q1 Polarity Orientation
+3	0	Q2 Polarity Orientation
+380	0	Fast Scan Calibraion
+381	0	Fast Scan Calibraion
+382	0	Fast Scan Calibraion
+383	0	Fast Scan Calibraion
+384	0	Fast Scan Calibraion
+385	0	Fast Scan Calibraion
+386	0	Fast Scan Calibraion
+387	0	Fast Scan Calibraion
+388	0	Fast Scan Calibraion
+389	0	Fast Scan Calibraion
+390	0	Fast Scan Calibraion
+391	0	Fast Scan Calibraion
+392	0	Fast Scan Calibraion
+393	0	Fast Scan Calibraion
+394	0	Fast Scan Calibraion
+395	0	Fast Scan Calibraion
+396	0	Fast Scan Calibraion
+397	0	Fast Scan Calibraion
+398	0	Fast Scan Calibraion
+399	0	Fast Scan Calibraion
+400	0	Fast Scan Calibraion
+401	0	Fast Scan Calibraion
+402	0	Fast Scan Calibraion
+403	0	Fast Scan Calibraion
+404	0	Fast Scan Calibraion
+405	0	Fast Scan Calibraion
+406	0	Fast Scan Calibraion
+407	0	Fast Scan Calibraion
+408	0	Fast Scan Calibraion
+409	0	Fast Scan Calibraion
+1300	0	# of Experiments
+250	0	ADC #0
+251	0	ADC #1
+252	0	ADC #2
+253	0	ADC #3
+254	0	ADC #4
+255	0	ADC #5
+256	0	ADC #6
+257	0	ADC #7
+258	0	ADC #8
+259	0	ADC #9
+260	0	ADC #10
+261	0	ADC #11
+262	0	ADC #12
+263	0	ADC #13
+264	0	ADC #14
+265	0	ADC #15
+266	0	ADC #16
+267	0	ADC #17
+268	0	ADC #18
+269	0	ADC #19
+270	0	ADC #20
+271	0	ADC #21
+272	0	ADC #22
+273	0	ADC #23
+274	0	ADC #24
+275	0	ADC #25
+276	0	ADC #26
+277	0	ADC #27
+278	0	ADC #28
+279	0	ADC #29
+280	0	ADC #30
+281	0	ADC #31
+282	0	ADC #32
+283	0	ADC #33
+284	0	ADC #34
+285	0	ADC #35
+286	0	ADC #36
+287	0	ADC #37
+288	0	ADC #38
+289	0	ADC #39
+290	0	ADC #40
+291	0	ADC #41
+292	0	ADC #42
+293	0	ADC #43
+294	0	ADC #44
+295	0	ADC #45
+296	0	ADC #46
+297	0	ADC #47
+298	0	ADC #48
+299	0	ADC #49
+300	0	ADC #50
+301	0	ADC #51
+302	0	ADC #52
+303	0	ADC #53
+304	0	ADC #54
+305	0	ADC #55
+306	0	ADC #56
+307	0	ADC #57
+308	0	ADC #58
+309	0	ADC #59
+310	0	ADC #60
+311	0	ADC #61
+312	0	ADC #62
+313	0	ADC #63
+314	0	ADC #64
+315	0	ADC #65
+316	0	ADC #66
+317	0	ADC #67
+318	0	ADC #68
+319	0	ADC #69
+320	0	ADC #70
+321	0	ADC #71
+322	0	ADC #72
+323	0	ADC #73
+324	0	ADC #74
+325	0	ADC #75
+326	0	ADC #76
+327	0	ADC #77
+328	0	ADC #78
+329	0	ADC #79
+330	0	ADC #80
+331	0	ADC #81
+332	0	ADC #82
+333	0	ADC #83
+334	0	ADC #84
+335	0	ADC #85
+336	0	ADC #86
+337	0	ADC #87
+338	0	ADC #88
+339	0	ADC #89
+340	0	ADC #90
+341	0	ADC #91
+342	0	ADC #92
+343	0	ADC #93
+344	0	ADC #94
+345	0	ADC #95
+346	0	ADC #96
+347	0	ADC #97
+348	0	ADC #98
+349	0	ADC #99
+350	0	ADC #100
+351	0	ADC #101
+352	0	ADC #102
+353	0	ADC #103
+354	0	PIC#80 set to 0, read in 0
+355	0	PIC#81 set to 0, read in 0
+356	0	PIC#82 set to 0, read in 0
+357	0	PIC#83 set to 0, read in 0
+358	0	PIC#84 set to 0, read in 0
+359	0	PIC#85 set to 0, read in 0
+360	0	PIC#86 set to 0, read in 0
+361	0	PIC#87 set to 0, read in 0
+362	0	PIC#88 set to 0, read in 0
+363	0	PIC#89 set to 0, read in 0
+364	0	PIC#90 set to 0, read in 0
+365	0	PIC#91 set to 0, read in 0
+366	0	PIC#92 set to 0, read in 0
+367	0	PIC#93 set to 0, read in 0
+368	0	PIC#94 set to 0, read in 0
+369	0	ADC #119
+370	0	ADC #120
+371	0	ADC #121
+400	0	VC#1 +ve set to 0, -ve set to 0
+401	0	VC#2 +ve set to 0, -ve set to 0
+402	0	VC#3 +ve set to 0, -ve set to 0
+403	0	VC#4 +ve set to 0, -ve set to 0
+388	0	Pole Orientation
+389	0	Restore From Power Failure
+399	0	Contact Output Logics
+409	0	Contact Input Logics

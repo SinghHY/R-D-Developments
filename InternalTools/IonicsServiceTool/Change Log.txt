@@ -1,0 +1,132 @@
+
+Service Tools V4.5.1 Changelog:
+QRD-161 - Added series 410 and 420 to instrument models
+-----------------------------------------------------------------------------------------------------------------------------------
+Service Tools V4.5 Changelog:
+QRD-101 - Added series 310 and 320 to instrument models
+QRD-102 - Allow user to modify the scaling factors to values between 0.3 and 0.8. Read scaling factors from ipf file because they are not stored in the sbRIO
+--------------------------------------------------------------------------------
+Service Tools V4.4 Changelog:
+QRD-88 - Updated default ipf file
+QRD-87 - Removed fpga and memory consumption messages from brief status output
+QRD-86 - Removed prompt to save extra ipf file, just saves tables now without prompt
+QRD-85 - Updated look and feel of pole orientations
+QRD-84 - Updated typical and max gas values
+QRD-83 - Updated to check fw version number for 'R', if none present then prompts user to continue or abort
+QRD-76 - Now display fw package version instead of config file location of system status page
+--------------------------------------------------------------------------------
+Service Tools V4.3 Changelog:
+EHSM-4228 - Changed the way that Service Tool prints it's FP, before it would lose connectivity if the user took more than 8 seconds to select a file now it has no impact.
+EHSM-4229 - Removed LC Stuff from Interlocks page.
+--------------------------------------------------------------------------------
+Service Tools V4.2.1 Changelog:
+EHSM-3302 - Service Tool needs to support QSight 100 Series
+
+--------------------------------------------------------------------------------
+Service Tools V4.2 Changelog:
+EHSM-2915 - Service Tool bombs if folder ProgramData/PerkinElmer/Simplicity/Server does not exist
+EHSM-2741/2831 - Move and rename log files
+EHSM-3302 - Service Tool needs to support QSight 100 Series
+
+--------------------------------------------------------------------------------
+Service Tools V4.1.1 Changelog:
+Changed the status bar to show Service Tools instead of showing a connected status before a connection occurs
+
+--------------------------------------------------------------------------------
+Service Tools V4.1 Changelog:
+EHSM-452 - Go To Roughing Pump Ready can only be pressed from "Ready" and "MS is OFF" states
+
+--------------------------------------------------------------------------------
+Service Tools V4.0 Changelog:
+EHSM-2254 - Create direct communication with MS F/W SBRIO bypassing Simplicity Server
+EHSM-2355 - Validate Service Tools/Ion Sniffer and Simplicity Server still work with new TCP communication
+
+--------------------------------------------------------------------------------
+
+Service Tools V3.12.6 Changelog:
+1. EHSM-379 - Removed LC Type Selector as is no longer supported
+2. EHSM-180 - Removed all references to LC Type Selector
+--------------------------------------------------------------------------------
+
+Service Tools V3.12.5 Changelog:
+1- EHSM-1861 - Swapped tabs so that correct picture is displayed for calibration
+2- EHSM-1864 - Changed typical and maximum gas settings for single and double source configurations.
+3- EHSM-1850 - move buttons to be above their tabs in IonicsServiceTool.vi
+4- EHSM-1854 - Removed white var from bottom of page on IonicsServiceTool.vi
+5- EHSM-1860 - Service Tool cosmetic changes
+7- EHSM-373 - File/Firmware Reboot must shut down system
+8- EHSM-1462 - ServiceTools now uses new routine to find ipf file, also changed the way the extra copies of the ipf and table files are saved
+9- EHSM-2089 - Seperated the print from the UI thread to a new Command Processor, implementation supports
+moving more commands as new ones are identified. If issue is still occuring then we need to look elsewhere 
+for conditions that cause the application to disconnect from MS.
+10- EHSM-2184 - Load Default Method is broken
+11- EHSM-2182 - Service Tool should load ST Default Settings upon opening
+12- EHSM-846 - ST now sets the source voltages to the calibration values at the end of the routine.
+13- Moved the FW OK check to happen at the begining of the test sequences.
+14- Updated the myTables and ipf files
+15- EHSM-546 - Tidy up FW error messaging - filtered out the Start Run msg from the ServiceTool and ionsniffer brief msg
+--------------------------------------------------------------------------------
+Service Tools V3.12.4 Changelog:
+1- EHSM-940 - Fixed an issue in the CCP read back value
+2- EHSM-1667 - oscillator are now being saved to IPF file
+3- EHSM-1462 - changed the location of IPF file for service tools
+4- EHSM-1666 - Log file is now created in same location as executable
+
+--------------------------------------------------------------------------------
+Service Tools V3.12.3 Changelog:
+1- EHSM-846 - Add ISV Calibration to board calibration routines
+2- EHSM-847 - Changed workflow for park mass operation
+
+--------------------------------------------------------------------------------
+Service Tool V3.12.2 Changelog:
+EHSM-847 - Better Plan for Rough Frequency tuning, Park mass set to zero- Routine was missing a couple of key functionalities,
+now it creates a new table containing the required config as per requirements.
+
+--------------------------------------------------------------------------------
+Service Tool V3.12.1 (Beta) Changelog:
+1- EHSM-847 - Better Plan for Rough Frequency tuning, Park mass set to zero
+
+--------------------------------------------------------------------------------
+Service Tool V3.12 Changelog:
+(item 2 and 3 have not been validated on-site yet, also item 2 requires an image to be taken onsite of the test points)
+1- EHSM-1393 - Relabel Curtain Gas Interlock
+2- EHSM-847 - Better Plan for Rough Frequency tuning, Park mass set to zero
+- Cleaned up error when starting service tool if MS is not connected, SW now shows a friendly msg indicating
+its running in simulation mode.
+
+--------------------------------------------------------------------------------
+Service Tool V3.11 Changelog:
+1-EHSM-625 - Service Tool response to wrong password
+2-EHSM-417 - Allow user to change login without exiting
+3-EHSM-625 - FW flashed with ST3.9 compatible image does not talk to ST 3.7, Server?
+4-EHSM-766 - Lens Board Calibration Procedure Changes
+
+--------------------------------------------------------------------------------
+Service Tool V3.10 Changelog:
+-EHSM-344 - Service Tool Needs to Support Load Firmware for 9607 sbRIO -bug fixes
+-EHSM-373 - File/Firmware Reboot must shutdown system
+
+--------------------------------------------------------------------------------
+Service Tool V3.9 Changelog:
+-EHSM-416 - Rename FW Manager Tab
+-EHSM-415 - Rename Turbopump tabs
+-EHSM-410 - Remove channel numbers from source 2 labels
+-EHSM-351 - SX Default should be changed to 0
+
+--------------------------------------------------------------------------------
+Service Tool V3.8 Changelog:
+-EHSM-344 - Service Tool Needs to Support Load Firmware for 9607 sbRIO
+-EHSM-396 - Include Standard Tune files with Service Tool Release Package
+
+--------------------------------------------------------------------------------
+Service Tool V3.7 Changelog:
+-EHSM-381 - Rename "Auto Gas Flag" to "Out of Gas Flag"
+-EHSM-380 - Remove useless boxes from QDC tuning tab
+
+--------------------------------------------------------------------------------
+Service Tool V3.6 Changelog:
+EHSM-343 - Support new "Run LC" Architecture - updated commands typedef
+
+--------------------------------------------------------------------------------
+Service Tool V3.5 Changelog:
+-EHSM-325 - Update model names to Q Sight

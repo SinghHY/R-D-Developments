@@ -1,0 +1,12 @@
+[My Computer]
+My Computer = "192.168.241.1"
+
+[sbRIO 9602]
+sbRIO 9602 = "172.16.0.4"
+
+[sbRIO 9606]
+sbRIO 9606 = "172.16.0.3"
+
+[sbRIO 9607]
+sbRIO 9607 = "172.16.0.2"
+

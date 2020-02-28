@@ -1,0 +1,259 @@
+R&D Package Version - 1.7
+RT Version - 2107170921
+FPGA Version - 972161123
+Release Date: September 21st, 2017
+Change Log:
+QRD-83 - Added package version to system status message which includes firmware strand letter
+***************************************************************************************************************
+***************************************************************************************************************
+R&D Package Version - 1.6
+RT Version - 2-106170515
+FPGA Version - 972161123
+Release Date: May 15th, 2017
+Change log: 
+QRD-71 - Leybold turbopump requires a constant heartbeat to keep pump alive, otherwise pump starts to spin down, new
+process added to send heartbeat once every 10seconds
+***************************************************************************************************************
+***************************************************************************************************************
+R&D Package Version - 1.5
+RT Version - 2-105170503
+FPGA Version - 972161123
+Release Date: May 5th, 2017
+Change log: 
+EHSM-4997 - Fixing an error in the row seperator
+***************************************************************************************************************
+***************************************************************************************************************
+R&D Package Version - 1.4
+RT Version - 2-104170503
+FPGA Version - 972161123
+Release Date: May 3th, 2017
+Change log: 
+EHSM-4997 - Changed the line end on the GetTableXML results to be \r\n rather than using the system default, as that
+is different in the simulator (windows \r\n) and FW (Linux \n)
+***************************************************************************************************************
+***************************************************************************************************************
+
+R&D Package Version - 1.3
+RT Version - 103170426
+FPGA Version - 972161123
+Release Date: April 26th, 2017
+Change log: 
+EHSM-4997 - GetTableXml command sent to Simplicity Firmware/Simulator always returns the same result
+
+***************************************************************************************************************
+***************************************************************************************************************
+
+R&D Package Version - 1.2
+RT Version - 102170417
+FPGA Version - 972161123
+Release Date: April 17th, 2017
+Change log: 
+QRD-65 - Fixed potential issue where the max mass can be taken from the incorrect channel.
+
+***************************************************************************************************************
+***************************************************************************************************************
+R&D Package Version - 1.1
+RT Version - 101170413
+FPGA Version - 972161123
+Release Date: April 13th, 2017
+Change log: 
+QRD-65 - Fixed the extrapolation of calibration DAC values. The max mass was not being set but now is set with the 
+the calibration file is updated.
+
+***************************************************************************************************************
+***************************************************************************************************************
+R&D Package Version - 1.0
+RT Version - 100170329
+FPGA Version - 972161123
+Release Date: March. 29th, 2017
+Change log: 
+Reinstate Information message for Source Exhaust - Tunning error was being overridden by the
+source exhause, added a check to source exhaust to not issue new error if the system is in tuning error state.
+QRD-40 - Fixed the "Modified the Set Parameters" to set both 0 and -1 for the CAP voltage when setting to zero in-order to turn both power supplies off
+
+***************************************************************************************************************
+***************************************************************************************************************
+
+Package Version - 3.1
+RT Version - 986170119
+FPGA Version - 972161123
+Release Date: Jan. 20th, 2017
+Change log: 
+EHSM-3111 - Reinstate Information message for Source Exhaust
+EHSM-2930 - MS cannot recover from loss of connectivity
+
+***************************************************************************************************************
+***************************************************************************************************************
+
+Package Version - 3.0.7
+RT Version - 984161215
+FPGA Version - 971161108
+Release Date: Dec. 15th, 2016
+Change log: 
+Fixed the RunTimeUpdate command failing to update parameters when a run is not in progress
+
+***************************************************************************************************************
+***************************************************************************************************************
+
+Package Version - 3.0.6
+RT Version - 984161207
+FPGA Version - 971161108
+Release Date: Dec. 7th, 2016
+Change log: 
+EHSM-1988 - moved loading the config file to be in the RT initialization step before running the MS main loop. Also increased the timeout for reading the complete flag from fpga to 2sec instead of 350ms
+
+***************************************************************************************************************
+***************************************************************************************************************
+
+Package Version - 3.0.4
+RT Version - 981161128
+FPGA Version - 972161123
+Release Date: Nov. 28th, 2016
+Change log: 
+EHSM-2581 - Corrected semaphore timeout causing large xml experiments to fail to run
+EHSM-2546 - Erros parsing out experimnet data in new TCP/IP communication service
+
+***************************************************************************************************************
+***************************************************************************************************************
+
+Package Version - 3.0.1
+RT Version - 980161117
+FPGA Version - 971161108
+Release Date: Nov. 17th, 2016
+Change log: 
+EHSM-452 - MS will now turn off by clicking the LCD power button rather than go to the "Roughing Pump Ready" state in some cases.
+EHSM-546 - If TP does not reach full speed within 30 min of startup an error displaying "High Vacuum Not Achieved"
+EHSM-2483 - Start Actual run was looking at the acquiring data flag rather than ready to acquire data flag
+
+***************************************************************************************************************
+***************************************************************************************************************
+
+Package Version - 3.0
+RT Version - 979161115
+FPGA Version - 971161108
+Release Date: Nov. 15th, 2016
+Change log: 
+EHSM-2255 - Add support to sbRIO for parsing xml messages coming from top-level app
+EHSM-2353 - sbRIO needs to publish a comprehensive system status
+
+***************************************************************************************************************
+***************************************************************************************************************
+Package Version - 2.7
+RT Version - 978161115
+FPGA Version - 970161021
+Release Date: Nov. 15th, 2016
+Change log: 
+EHSM-2395 - Remove "LC Contact Closure Error Triggered" message from FW log. 
+EHSM-452 - MS will now turn off by clicking the LCD power button rather than go to the "Roughing Pump Ready" state in some cases.
+EHSM-546 - If TP does not reach full speed within 30 min of startup an error displaying "High Vacuum Not Achieved"
+EHSM-1851 - From service standby, the MS can turn all the way off
+***************************************************************************************************************
+***************************************************************************************************************
+Package Version - 2.6
+RT Version - 975161021
+FPGA Version - 970161021
+Release Date: Oct. 21th, 2016
+Change log: 
+EHSM-2017 - Parameter Ramp for tuning - RTD is broken - when EHSM-1771 was implemented the ramp parameter 
+state was not updated to include the new acquiring data flag. Also updated the RT application to check
+for the new acquiring data flag instead of the running flag when executing the start actual run.
+- Added a new Field to the GetInfo command on RT which includes the MEM version for use by TopLevel SW
+- 
+
+***************************************************************************************************************
+***************************************************************************************************************
+Package Version - 2.5
+RT Version - 974160927
+FPGA Version - 969160927
+Release Date: Sep. 27th, 2016
+Change log: 
+EHSM-1771 - Modified the FPGA to provide a seperate state for when data acquisition is occuring vs when system 
+is busy reading daq values and setting dual vs single source
+EHSM-1760 - Horn and DV will now stay on when the system goes into a lost communication state.
+
+***************************************************************************************************************
+***************************************************************************************************************
+
+Package Version - 2.4
+RT Version - 973160916 
+FPGA Version - 968160714 
+Release Date: Sep. 16th, 2016
+Change log: 
+EHSM-1728 - Modified the startup sequence to read the dry gas level three times before deeming if the system 
+should start up or not. The system would previously startup because the number have large fluctuation and if 
+one of the Dry gas levels exceed 0.25 V the system would startup
+
+***************************************************************************************************************
+***************************************************************************************************************
+
+Package Version - 2.3
+RT Version - 972160914
+FPGA Version - 968 160714 
+Release Date: Sep. 14th, 2016
+Change log: 
+EHSM-940 - fixed an issue where the oscillator values fluctuate when system goes in Source Standby
+
+***************************************************************************************************************
+***************************************************************************************************************
+
+Package Version - 2.2
+RT Version - 971160720 
+FPGA Version - 968160714 
+Release Date: July 14th, 2016
+Change log: 
+EHSM-464 - Reduce Pause Time from 3 ms 
+EHSM-940 - Leave oscillators on for select error states 
+EHSM-1098 - Storage directories for Acquire.log and Server.log 
+EHSM-1145 - Warning dialog for simplicity server close gadget
+
+***************************************************************************************************************
+***************************************************************************************************************
+
+Package Version - 2.1
+RT Version - 970160620 
+FPGA Version - 967160620 
+Release Date: June 20th, 2016
+Change log: 
+Bringing in the two development branches for Device sync and LCD fixes
+EHSM-343 - Support new "Run LC" Architecture
+EHSM-667 - Button on LCD panel does not respond
+
+***************************************************************************************************************
+***************************************************************************************************************
+
+Package Version - 2.0 (Release Candidate - development release)
+RT Version - 969
+FPGA Version - 964
+Change Log: 
+EHSM-390 - Expand the Interface DLL to accept new StartActualRun command 
+EHSM-391 - Simplicity Server - Separate the start run operation to incorporate the new StartActualRun command 
+EHSM-394 - FW-RT - Update the command structure to accept StartActualRun 
+EHSM-395 - FW-FPGA - Update the state machine to trigger acquisition start on receiving ActualStart OR LC trigger 
+EHSM-429 - Simplicity Server - Send response back to top lvl app to indicate successful setting of parameters 
+EHSM-430 - Simplicity server - modify simulation mode to accept new command 
+EHSM-485 - Expose function to set CC lline config through the interface dll
+
+***************************************************************************************************************
+***************************************************************************************************************
+Package Version - 1.1
+RT Version - 969-160602
+FPGA Version - 964-160602
+Release Date: June 2nd, 2016
+Changes: 
+EHSM-667 - Added a call to the FPGA serial read function that switches the RX line to input, the sbRIO9607 and 9606 both need to be explicity told to make the line an input line. 
+- Compiled the FPGA with "Load on Start" enabled to allow downloading it on the Flash memory. 
+- Created a new image file with the bitfile embedded into it, to allow the RAD utility to flash it automatically to  flash mem.
+
+***************************************************************************************************************
+***************************************************************************************************************
+
+Package Version - 1.0
+RT Version - 968-160406
+FPGA Version - 963-160406
+Release Date: April 6th, 2016
+Change Log: 
+- Project ported over to the sbRIO 9607 
+- Available FPGA memory space expanded to the Max U16 value of 65535 
+- Through testing, a maximum experiment size of 63959 was established, this maps out to 51715 memory elements. 
+- System now generates an out of memory error when going above this value 
+- Modified the RT data types for addresses to be U16 instead of a combination of U16 and U32

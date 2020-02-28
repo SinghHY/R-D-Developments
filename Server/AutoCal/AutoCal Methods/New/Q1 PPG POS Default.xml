@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MassSpecMethod Id="4681d3f2-9080-4614-9c78-8e139d395ff2" Name="Q1 PPG POS Default" Version="1.00" DateCreated="07/21/2016 16:21:23" DateModified="07/21/2016 16:21:23">
+  <Source>ESI1</Source>
+  <SourceEquilibration>False</SourceEquilibration>
+  <OriginalFile>C:\Users\Public\MolAna\Instrument\Project\MS Methods\S-200 Q1 PPG POS Default.xml</OriginalFile>
+  <SyncMode>No_LC</SyncMode>
+  <Equilibration>3000</Equilibration>
+  <Q1CalibrationFile>DefaultCalibration</Q1CalibrationFile>
+  <Q3CalibrationFile>DefaultCalibration</Q3CalibrationFile>
+  <MethodParameters>
+    <MethodParameter>
+      <ChannelDescription>Detector Horn</ChannelDescription>
+      <Voltages>5500</Voltages>
+      <ChannelId>200</ChannelId>
+    </MethodParameter>
+    <MethodParameter>
+      <ChannelDescription>Drying Gas</ChannelDescription>
+      <Voltages>80</Voltages>
+      <ChannelId>26</ChannelId>
+    </MethodParameter>
+    <MethodParameter>
+      <ChannelDescription>Nebulizer Gas 1</ChannelDescription>
+      <Voltages>90</Voltages>
+      <ChannelId>27</ChannelId>
+    </MethodParameter>
+    <MethodParameter>
+      <ChannelDescription>Heating Gas 1</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelId>29</ChannelId>
+    </MethodParameter>
+    <MethodParameter>
+      <ChannelDescription>Nebulizer Gas 2</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelId>28</ChannelId>
+    </MethodParameter>
+    <MethodParameter>
+      <ChannelDescription>Heating Gas 2</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelId>30</ChannelId>
+    </MethodParameter>
+    <MethodParameter>
+      <ChannelDescription>Source Exhaust</ChannelDescription>
+      <Voltages>500</Voltages>
+      <ChannelId>42</ChannelId>
+    </MethodParameter>
+    <MethodParameter>
+      <ChannelDescription>HSID Temperature</ChannelDescription>
+      <Voltages>320</Voltages>
+      <ChannelId>81</ChannelId>
+    </MethodParameter>
+    <MethodParameter>
+      <ChannelDescription>Source 1 Temp</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelId>86</ChannelId>
+    </MethodParameter>
+    <MethodParameter>
+      <ChannelDescription>Source 2 Temp</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelId>84</ChannelId>
+    </MethodParameter>
+    <MethodParameter>
+      <ChannelDescription>Corona Discharge</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelId>202</ChannelId>
+    </MethodParameter>
+    <MethodParameter>
+      <ChannelDescription>ElectroSpray V2</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelId>204</ChannelId>
+    </MethodParameter>
+  </MethodParameters>
+  <StartingScan>0</StartingScan>
+  <TotalNumberOfScans>1000</TotalNumberOfScans>
+  <SumScans>False</SumScans>
+  <TotalNumberOfMasses>0</TotalNumberOfMasses>
+  <Experiments>
+    <Experiment>
+      <ExperimentIndex>0</ExperimentIndex>
+      <ScanType>Q1FullScan</ScanType>
+      <Polarity>Positive</Polarity>
+      <StartTime>0</StartTime>
+      <StopTime>2470000</StopTime>
+      <NumberOfCycles>1000</NumberOfCycles>
+      <PauseTime>5000</PauseTime>
+      <FixedMass>100</FixedMass>
+      <DelayTime>0</DelayTime>
+      <MassDefect>55</MassDefect>
+      <Comment>
+      </Comment>
+      <Name>
+      </Name>
+      <Source>None</Source>
+      <GlobalSource>False</GlobalSource>
+      <DwellTime>0</DwellTime>
+      <NumberOfMasses>0</NumberOfMasses>
+      <ExperimentParameters>
+        <ExperimentParameter>
+          <ChannelDescription>Multipole 1 RF</ChannelDescription>
+          <Voltages>450</Voltages>
+          <ChannelId>3</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Entrance Voltage</ChannelDescription>
+          <Voltages>55</Voltages>
+          <ChannelId>20</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Entrance Deflector</ChannelDescription>
+          <Voltages>0</Voltages>
+          <ChannelId>21</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Multipole 1</ChannelDescription>
+          <Voltages>0</Voltages>
+          <ChannelId>19</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Multipole Lens 1</ChannelDescription>
+          <Voltages>0</Voltages>
+          <ChannelId>18</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Multipole 2</ChannelDescription>
+          <Voltages>0</Voltages>
+          <ChannelId>22</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Multipole Lens 2</ChannelDescription>
+          <Voltages>0</Voltages>
+          <ChannelId>11</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Prefilter 1</ChannelDescription>
+          <Voltages>-15</Voltages>
+          <ChannelId>12</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Quadrupole 1</ChannelDescription>
+          <Voltages>-1</Voltages>
+          <ChannelId>6</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Collision Cell Lens 1</ChannelDescription>
+          <Voltages>0</Voltages>
+          <ChannelId>13</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Collision Cell Lens 2</ChannelDescription>
+          <Voltages>-100</Voltages>
+          <ChannelId>14</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Collision Energy</ChannelDescription>
+          <Voltages>-50</Voltages>
+          <ChannelId>23</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Axial Field</ChannelDescription>
+          <Voltages>100</Voltages>
+          <ChannelId>10</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Collision Cell Lens 3</ChannelDescription>
+          <Voltages>-51</Voltages>
+          <ChannelId>15</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Collision Cell Lens 4</ChannelDescription>
+          <Voltages>-62</Voltages>
+          <ChannelId>16</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Quadrupole 2</ChannelDescription>
+          <Voltages>-52</Voltages>
+          <ChannelId>8</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Detector Deflector</ChannelDescription>
+          <Voltages>-100</Voltages>
+          <ChannelId>17</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Discriminator</ChannelDescription>
+          <Voltages>15</Voltages>
+          <ChannelId>32</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Detector Voltage</ChannelDescription>
+          <Voltages>2000</Voltages>
+          <ChannelId>34</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Collision Pressure</ChannelDescription>
+          <Voltages>0</Voltages>
+          <ChannelId>43</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>ElectroSpray V1</ChannelDescription>
+          <Voltages>5850</Voltages>
+          <ChannelId>203</ChannelId>
+        </ExperimentParameter>
+        <ExperimentParameter>
+          <ChannelDescription>Curtain Cap</ChannelDescription>
+          <Voltages>1000</Voltages>
+          <ChannelId>201</ChannelId>
+        </ExperimentParameter>
+      </ExperimentParameters>
+      <StartIndexInMassString>0</StartIndexInMassString>
+      <MassRanges>
+        <MassRange>
+          <Name>
+          </Name>
+          <Mass>59</Mass>
+          <Width>6</Width>
+          <StartMass>56</StartMass>
+          <StopMass>62</StopMass>
+          <StepSize>0.1</StepSize>
+          <NumberOfSteps>61</NumberOfSteps>
+          <DwellTime>5</DwellTime>
+          <Resolution>Unit_Unit</Resolution>
+          <MassRangeString>56.0000	56.1006	56.2011	56.3017	56.4022	56.5028	56.6033	56.7039	56.8044	56.9050	57.0055	57.1061	57.2066	57.3072	57.4077	57.5083	57.6088	57.7094	57.8099	57.9105	58.0110	58.1116	58.2121	58.3127	58.4132	58.5138	58.6143	58.7149	58.8154	58.9160	59.0165	59.1171	59.2176	59.3182	59.4187	59.5193	59.6198	59.7204	59.8209	59.9215	60.0220	60.1226	60.2231	60.3237	60.4242	60.5248	60.6253	60.7259	60.8264	60.9270	61.0275	61.1281	61.2286	61.3292	61.4297	61.5303	61.6308	61.7314	61.8319	61.9325	62.0330	</MassRangeString>
+          <RetentionTime>0</RetentionTime>
+          <StartTime>0</StartTime>
+          <StopTime>0</StopTime>
+          <DeltaTime>0</DeltaTime>
+          <MassDependentParameters />
+        </MassRange>
+        <MassRange>
+          <Name>
+          </Name>
+          <Mass>175</Mass>
+          <Width>6</Width>
+          <StartMass>172</StartMass>
+          <StopMass>178</StopMass>
+          <StepSize>0.1</StepSize>
+          <NumberOfSteps>61</NumberOfSteps>
+          <DwellTime>5</DwellTime>
+          <Resolution>Unit_Unit</Resolution>
+          <MassRangeString>172.0000	172.1006	172.2011	172.3017	172.4022	172.5028	172.6033	172.7039	172.8044	172.9050	173.0055	173.1061	173.2066	173.3072	173.4077	173.5083	173.6088	173.7094	173.8099	173.9105	174.0110	174.1116	174.2121	174.3127	174.4132	174.5138	174.6143	174.7149	174.8154	174.9160	175.0165	175.1171	175.2176	175.3182	175.4187	175.5193	175.6198	175.7204	175.8209	175.9215	176.0220	176.1226	176.2231	176.3237	176.4242	176.5248	176.6253	176.7259	176.8264	176.9270	177.0275	177.1281	177.2286	177.3292	177.4297	177.5303	177.6308	177.7314	177.8319	177.9325	178.0330	</MassRangeString>
+          <RetentionTime>0</RetentionTime>
+          <StartTime>0</StartTime>
+          <StopTime>0</StopTime>
+          <DeltaTime>0</DeltaTime>
+          <MassDependentParameters />
+        </MassRange>
+        <MassRange>
+          <Name>
+          </Name>
+          <Mass>616</Mass>
+          <Width>6</Width>
+          <StartMass>613</StartMass>
+          <StopMass>619</StopMass>
+          <StepSize>0.1</StepSize>
+          <NumberOfSteps>61</NumberOfSteps>
+          <DwellTime>5</DwellTime>
+          <Resolution>Unit_Unit</Resolution>
+          <MassRangeString>613.0000	613.1006	613.2011	613.3017	613.4022	613.5028	613.6033	613.7039	613.8044	613.9050	614.0055	614.1061	614.2066	614.3072	614.4077	614.5083	614.6088	614.7094	614.8099	614.9105	615.0110	615.1116	615.2121	615.3127	615.4132	615.5138	615.6143	615.7149	615.8154	615.9160	616.0165	616.1171	616.2176	616.3182	616.4187	616.5193	616.6198	616.7204	616.8209	616.9215	617.0220	617.1226	617.2231	617.3237	617.4242	617.5248	617.6253	617.7259	617.8264	617.9270	618.0275	618.1281	618.2286	618.3292	618.4297	618.5303	618.6308	618.7314	618.8319	618.9325	619.0330	</MassRangeString>
+          <RetentionTime>0</RetentionTime>
+          <StartTime>0</StartTime>
+          <StopTime>0</StopTime>
+          <DeltaTime>0</DeltaTime>
+          <MassDependentParameters />
+        </MassRange>
+        <MassRange>
+          <Name>
+          </Name>
+          <Mass>907</Mass>
+          <Width>6</Width>
+          <StartMass>904</StartMass>
+          <StopMass>910</StopMass>
+          <StepSize>0.1</StepSize>
+          <NumberOfSteps>61</NumberOfSteps>
+          <DwellTime>5</DwellTime>
+          <Resolution>Unit_Unit</Resolution>
+          <MassRangeString>904.0000	904.1006	904.2011	904.3017	904.4022	904.5028	904.6033	904.7039	904.8044	904.9050	905.0055	905.1061	905.2066	905.3072	905.4077	905.5083	905.6088	905.7094	905.8099	905.9105	906.0110	906.1116	906.2121	906.3127	906.4132	906.5138	906.6143	906.7149	906.8154	906.9160	907.0165	907.1171	907.2176	907.3182	907.4187	907.5193	907.6198	907.7204	907.8209	907.9215	908.0220	908.1226	908.2231	908.3237	908.4242	908.5248	908.6253	908.7259	908.8264	908.9270	909.0275	909.1281	909.2286	909.3292	909.4297	909.5303	909.6308	909.7314	909.8319	909.9325	910.0330	</MassRangeString>
+          <RetentionTime>0</RetentionTime>
+          <StartTime>0</StartTime>
+          <StopTime>0</StopTime>
+          <DeltaTime>0</DeltaTime>
+          <MassDependentParameters />
+        </MassRange>
+        <MassRange>
+          <Name>
+          </Name>
+          <Mass>1255</Mass>
+          <Width>6</Width>
+          <StartMass>1252</StartMass>
+          <StopMass>1258</StopMass>
+          <StepSize>0.1</StepSize>
+          <NumberOfSteps>61</NumberOfSteps>
+          <DwellTime>10</DwellTime>
+          <Resolution>Unit_Unit</Resolution>
+          <MassRangeString>1252.0000	1252.1006	1252.2011	1252.3017	1252.4022	1252.5028	1252.6033	1252.7039	1252.8044	1252.9050	1253.0055	1253.1061	1253.2066	1253.3072	1253.4077	1253.5083	1253.6088	1253.7094	1253.8099	1253.9105	1254.0110	1254.1116	1254.2121	1254.3127	1254.4132	1254.5138	1254.6143	1254.7149	1254.8154	1254.9160	1255.0165	1255.1171	1255.2176	1255.3182	1255.4187	1255.5193	1255.6198	1255.7204	1255.8209	1255.9215	1256.0220	1256.1226	1256.2231	1256.3237	1256.4242	1256.5248	1256.6253	1256.7259	1256.8264	1256.9270	1257.0275	1257.1281	1257.2286	1257.3292	1257.4297	1257.5303	1257.6308	1257.7314	1257.8319	1257.9325	1258.0330	</MassRangeString>
+          <RetentionTime>0</RetentionTime>
+          <StartTime>0</StartTime>
+          <StopTime>0</StopTime>
+          <DeltaTime>0</DeltaTime>
+          <MassDependentParameters />
+        </MassRange>
+        <MassRange>
+          <Name>
+          </Name>
+          <Mass>1487</Mass>
+          <Width>6</Width>
+          <StartMass>1484</StartMass>
+          <StopMass>1490</StopMass>
+          <StepSize>0.1</StepSize>
+          <NumberOfSteps>61</NumberOfSteps>
+          <DwellTime>10</DwellTime>
+          <Resolution>Unit_Unit</Resolution>
+          <MassRangeString>1484.0000	1484.1006	1484.2011	1484.3017	1484.4022	1484.5028	1484.6033	1484.7039	1484.8044	1484.9050	1485.0055	1485.1061	1485.2066	1485.3072	1485.4077	1485.5083	1485.6088	1485.7094	1485.8099	1485.9105	1486.0110	1486.1116	1486.2121	1486.3127	1486.4132	1486.5138	1486.6143	1486.7149	1486.8154	1486.9160	1487.0165	1487.1171	1487.2176	1487.3182	1487.4187	1487.5193	1487.6198	1487.7204	1487.8209	1487.9215	1488.0220	1488.1226	1488.2231	1488.3237	1488.4242	1488.5248	1488.6253	1488.7259	1488.8264	1488.9270	1489.0275	1489.1281	1489.2286	1489.3292	1489.4297	1489.5303	1489.6308	1489.7314	1489.8319	1489.9325	1490.0330	</MassRangeString>
+          <RetentionTime>0</RetentionTime>
+          <StartTime>0</StartTime>
+          <StopTime>0</StopTime>
+          <DeltaTime>0</DeltaTime>
+          <MassDependentParameters />
+        </MassRange>
+      </MassRanges>
+    </Experiment>
+  </Experiments>
+</MassSpecMethod>

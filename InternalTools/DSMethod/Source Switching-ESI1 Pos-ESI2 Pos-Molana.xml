@@ -1,0 +1,396 @@
+<Method>
+  <APCI1>False</APCI1>
+  <APCI2>False</APCI2>
+  <ESI1>True</ESI1>
+  <ESI2>False</ESI2>
+  <PolaritySwitch>False</PolaritySwitch>
+  <Original_File>C:\Users\Public\MolAna\Instrument\Project\MS Methods\Source Switching-ESI1-ESI2-Molana.xml</Original_File>
+  <Total_NumOf_Experiments>2</Total_NumOf_Experiments>
+  <Sync_Mode>No_LC</Sync_Mode>
+  <Equilibration>3000</Equilibration>
+  <Q1_Calibration_File>Default Calibration</Q1_Calibration_File>
+  <Q3_Calibration_File>Default Calibration</Q3_Calibration_File>
+  <LensTable>
+    <LensRow>
+      <ChannelDescription>Detector Horn</ChannelDescription>
+      <Voltages>5500</Voltages>
+      <ChannelID>200</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Drying Gas</ChannelDescription>
+      <Voltages>50</Voltages>
+      <ChannelID>26</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Nebulizer Gas 1</ChannelDescription>
+      <Voltages>90</Voltages>
+      <ChannelID>27</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Heating Gas 1</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>29</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Nebulizer Gas 2</ChannelDescription>
+      <Voltages>100</Voltages>
+      <ChannelID>28</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Heating Gas 2</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>30</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Source Exhaust</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>42</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>HSID Temperature</ChannelDescription>
+      <Voltages>300</Voltages>
+      <ChannelID>81</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Probe 1 Temp</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>86</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Probe 2 Temp</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>84</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>Corona Discharge</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>202</ChannelID>
+    </LensRow>
+    <LensRow>
+      <ChannelDescription>ElectroSpray V2</ChannelDescription>
+      <Voltages>0</Voltages>
+      <ChannelID>204</ChannelID>
+    </LensRow>
+  </LensTable>
+  <Starting_Scan>1</Starting_Scan>
+  <Num_Of_Scans>102</Num_Of_Scans>
+  <Total_Num_Mass>4</Total_Num_Mass>
+  <Experiment>
+    <Experiment_Number>0</Experiment_Number>
+    <Run_Mode>MRM</Run_Mode>
+    <Polarity>Positive</Polarity>
+    <Start_Time>0</Start_Time>
+    <Stop_Time>7200</Stop_Time>
+    <Num_Of_Cycles>51</Num_Of_Cycles>
+    <Pause_Time>5000</Pause_Time>
+    <Fixed_Mass>0.0000</Fixed_Mass>
+    <Delay_Time>0</Delay_Time>
+    <Mass_Defect>55</Mass_Defect>
+    <Comment>ESI1 5001</Comment>
+    <Num_Of_MR>2</Num_Of_MR>
+    <Dwell_Time>70</Dwell_Time>
+    <Num_Of_Mass>2</Num_Of_Mass>
+    <LensTable>
+      <LensRow>
+        <ChannelDescription>Multipole 1 RF</ChannelDescription>
+        <Voltages>500</Voltages>
+        <ChannelID>3</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Entrance Voltage</ChannelDescription>
+        <Voltages>100</Voltages>
+        <ChannelID>20</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Entrance Deflector</ChannelDescription>
+        <Voltages>90</Voltages>
+        <ChannelID>21</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Multipole 1</ChannelDescription>
+        <Voltages>-1</Voltages>
+        <ChannelID>19</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Multipole Lens 1</ChannelDescription>
+        <Voltages>-2</Voltages>
+        <ChannelID>18</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Multipole 2</ChannelDescription>
+        <Voltages>-3</Voltages>
+        <ChannelID>22</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Multipole Lens 2</ChannelDescription>
+        <Voltages>-4</Voltages>
+        <ChannelID>11</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Prefilter 1</ChannelDescription>
+        <Voltages>-15</Voltages>
+        <ChannelID>12</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Quadrupole 1</ChannelDescription>
+        <Voltages>-4.5</Voltages>
+        <ChannelID>6</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Cell Lens 1</ChannelDescription>
+        <Voltages>-10</Voltages>
+        <ChannelID>13</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Cell Lens 2</ChannelDescription>
+        <Voltages>-100</Voltages>
+        <ChannelID>14</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Energy</ChannelDescription>
+        <Voltages>-50</Voltages>
+        <ChannelID>23</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Axial Field</ChannelDescription>
+        <Voltages>100</Voltages>
+        <ChannelID>10</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Cell Lens 3</ChannelDescription>
+        <Voltages>-51</Voltages>
+        <ChannelID>15</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Cell Lens 4</ChannelDescription>
+        <Voltages>-62</Voltages>
+        <ChannelID>16</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Quadrupole 2</ChannelDescription>
+        <Voltages>-52</Voltages>
+        <ChannelID>8</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Ion Deflector</ChannelDescription>
+        <Voltages>-140</Voltages>
+        <ChannelID>17</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Discriminator</ChannelDescription>
+        <Voltages>10</Voltages>
+        <ChannelID>32</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Detector Voltage</ChannelDescription>
+        <Voltages>2000</Voltages>
+        <ChannelID>34</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Pressure</ChannelDescription>
+        <Voltages>0</Voltages>
+        <ChannelID>43</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>ElectroSpray V1</ChannelDescription>
+        <Voltages>5001</Voltages>
+        <ChannelID>203</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Curtain Cap</ChannelDescription>
+        <Voltages>1000</Voltages>
+        <ChannelID>201</ChannelID>
+      </LensRow>
+    </LensTable>
+    <Start_Index_In_MassString>0</Start_Index_In_MassString>
+    <MassRanges>
+      <MassRange>
+        <Name>
+        </Name>
+        <Mass>112</Mass>
+        <Width>-180</Width>
+        <Start_Mass>202</Start_Mass>
+        <Stop_Mass>22</Stop_Mass>
+        <Step_Size>0</Step_Size>
+        <Num_Of_Steps>1</Num_Of_Steps>
+        <Dwell_Time>30</Dwell_Time>
+        <Resolution>Unit_Unit</Resolution>
+        <Mass_Range_String>202.0000	</Mass_Range_String>
+        <ParamTable />
+      </MassRange>
+      <MassRange>
+        <Name>
+        </Name>
+        <Mass>113</Mass>
+        <Width>-180</Width>
+        <Start_Mass>203</Start_Mass>
+        <Stop_Mass>23</Stop_Mass>
+        <Step_Size>0</Step_Size>
+        <Num_Of_Steps>1</Num_Of_Steps>
+        <Dwell_Time>30</Dwell_Time>
+        <Resolution>Unit_Unit</Resolution>
+        <Mass_Range_String>203.0000	</Mass_Range_String>
+        <ParamTable />
+      </MassRange>
+    </MassRanges>
+  </Experiment>
+  <Experiment>
+    <Experiment_Number>1</Experiment_Number>
+    <Run_Mode>MRM</Run_Mode>
+    <Polarity>Positive</Polarity>
+    <Start_Time>0</Start_Time>
+    <Stop_Time>7200</Stop_Time>
+    <Num_Of_Cycles>51</Num_Of_Cycles>
+    <Pause_Time>5000</Pause_Time>
+    <Fixed_Mass>0.0000</Fixed_Mass>
+    <Delay_Time>0</Delay_Time>
+    <Mass_Defect>55</Mass_Defect>
+    <Comment>ESI2 5002</Comment>
+    <Num_Of_MR>2</Num_Of_MR>
+    <Dwell_Time>70</Dwell_Time>
+    <Num_Of_Mass>2</Num_Of_Mass>
+    <LensTable>
+      <LensRow>
+        <ChannelDescription>Multipole 1 RF</ChannelDescription>
+        <Voltages>500</Voltages>
+        <ChannelID>3</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Entrance Voltage</ChannelDescription>
+        <Voltages>100</Voltages>
+        <ChannelID>20</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Entrance Deflector</ChannelDescription>
+        <Voltages>90</Voltages>
+        <ChannelID>21</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Multipole 1</ChannelDescription>
+        <Voltages>-1</Voltages>
+        <ChannelID>19</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Multipole Lens 1</ChannelDescription>
+        <Voltages>-2</Voltages>
+        <ChannelID>18</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Multipole 2</ChannelDescription>
+        <Voltages>-3</Voltages>
+        <ChannelID>22</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Multipole Lens 2</ChannelDescription>
+        <Voltages>-4</Voltages>
+        <ChannelID>11</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Prefilter 1</ChannelDescription>
+        <Voltages>-15</Voltages>
+        <ChannelID>12</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Quadrupole 1</ChannelDescription>
+        <Voltages>-4.5</Voltages>
+        <ChannelID>6</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Cell Lens 1</ChannelDescription>
+        <Voltages>-10</Voltages>
+        <ChannelID>13</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Cell Lens 2</ChannelDescription>
+        <Voltages>-100</Voltages>
+        <ChannelID>14</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Energy</ChannelDescription>
+        <Voltages>-50</Voltages>
+        <ChannelID>23</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Axial Field</ChannelDescription>
+        <Voltages>100</Voltages>
+        <ChannelID>10</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Cell Lens 3</ChannelDescription>
+        <Voltages>-51</Voltages>
+        <ChannelID>15</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Cell Lens 4</ChannelDescription>
+        <Voltages>-62</Voltages>
+        <ChannelID>16</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Quadrupole 2</ChannelDescription>
+        <Voltages>-52</Voltages>
+        <ChannelID>8</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Ion Deflector</ChannelDescription>
+        <Voltages>-140</Voltages>
+        <ChannelID>17</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Discriminator</ChannelDescription>
+        <Voltages>10</Voltages>
+        <ChannelID>32</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Detector Voltage</ChannelDescription>
+        <Voltages>2000</Voltages>
+        <ChannelID>34</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Collision Pressure</ChannelDescription>
+        <Voltages>0</Voltages>
+        <ChannelID>43</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>ElectroSpray V1</ChannelDescription>
+        <Voltages>5001</Voltages>
+        <ChannelID>203</ChannelID>
+      </LensRow>
+      <LensRow>
+        <ChannelDescription>Curtain Cap</ChannelDescription>
+        <Voltages>1000</Voltages>
+        <ChannelID>201</ChannelID>
+      </LensRow>
+    </LensTable>
+    <Start_Index_In_MassString>2</Start_Index_In_MassString>
+    <MassRanges>
+      <MassRange>
+        <Name>
+        </Name>
+        <Mass>167</Mass>
+        <Width>-270</Width>
+        <Start_Mass>302</Start_Mass>
+        <Stop_Mass>32</Stop_Mass>
+        <Step_Size>0</Step_Size>
+        <Num_Of_Steps>1</Num_Of_Steps>
+        <Dwell_Time>30</Dwell_Time>
+        <Resolution>Unit_Unit</Resolution>
+        <Mass_Range_String>302.0000	</Mass_Range_String>
+        <ParamTable />
+      </MassRange>
+      <MassRange>
+        <Name>
+        </Name>
+        <Mass>168</Mass>
+        <Width>-270</Width>
+        <Start_Mass>303</Start_Mass>
+        <Stop_Mass>33</Stop_Mass>
+        <Step_Size>0</Step_Size>
+        <Num_Of_Steps>1</Num_Of_Steps>
+        <Dwell_Time>30</Dwell_Time>
+        <Resolution>Unit_Unit</Resolution>
+        <Mass_Range_String>303.0000	</Mass_Range_String>
+        <ParamTable />
+      </MassRange>
+    </MassRanges>
+  </Experiment>
+</Method>

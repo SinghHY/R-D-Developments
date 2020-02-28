@@ -1,0 +1,170 @@
+Simplicity Server 6.5 R&D Changelog:
+QRD-94 - Server now finds method files using the location in the ipf file
+QRD-93 - Server now looks for .method methods instead of .xml methods, handles conversion between the two
+QRD-92 - ipf file is now updated when server is updated
+QRD-90 - AutoCal now offers user options to 'Accept and Exit', 'Accept and Run AutoCal', or 'Reject'
+QRD-89 - AutoCal now does now accept peaks that are similar in size to other peaks around it
+QRD-88 - Updated the default ipf file and hardcoded backup ipf file
+QRD-83 - Update server to notify users if firmware is not R&D firmware, allows users to continue anyways
+********************************************************************************************************
+Simplicity Server 6.4R&D Changelog:
+EHSM-5053 - Auto cal-res should not update targetresolution.res file
+EHSM-5043 - disabled the context menu in autocal
+
+********************************************************************************************************
+
+Simplicity Server 6.3R&D Changelog:
+EHSM-4228- Had to change AutoCal to print the FP asynchonously if the user presses print on the AutoCal FP. Otherwise, the file prompt will hold up execution.
+EHSM-4592 - Autocal now reads .method files
+
+********************************************************************************************************
+Simplicity Server 6.2.11 Changelog:
+EHSM-4016 - Changed the PDF print to larger paper size so that none of the report gets hidden.
+
+********************************************************************************************************
+Simplicity Server 6.2.10 Changelog:
+EHSM-3137 - AutoDV was failing when there is a %increase that is negative. Corrected algorithm to look for %increase between 30 to -30.
+
+********************************************************************************************************
+Simplicity Server 6.2.9 Changelog:
+EHSM-3137 - AutoDV did not support QSight 110 and QSight 120.
+Caught before reported in JIRA: Once Auto DV was run and then proceed into AutoCal the application would fail because it hadn't received a Get Status in 8 seconds. Get Status is now being called every three seconds as long as an acquire is not being called.
+
+********************************************************************************************************
+Simplicity Server 6.2.8 Changelog:
+Changed the manufacturer name in the AutoCal screen PerkinElmer
+
+********************************************************************************************************
+Simplicity Server 6.2.7 Changelog:
+Changed the manufacturer name in the AutoCal screen from Ionics to PerkinElmer Health Sciences
+
+********************************************************************************************************
+Simplicity Server 6.2.6 Changelog:
+EHSM-3789 - Added a check for the pause in the Auto DV case structure
+EHSM-3843 - Changed timeout to 30 min for both Auto DV and AutoCal as requested by Frenny
+EHSM-3881 - AutoCal will now only write to the Q1 files after the password has been written.
+
+********************************************************************************************************
+Simplicity Server 6.2.5 Changelog:
+EHSM-2686 - 2nd dialog was not being generated correctly and still asking the user to whether they want to abort a run even after a successful completion
+
+********************************************************************************************************
+Simplicity Server 6.2.4 Changelog:
+EHSM-2686 - Need to still show the 2nd dialog promting to keep current settings which gets generated when quitting the process
+ 
+********************************************************************************************************
+
+Simplicity Server 6.2.3 Changelog:
+EHSM-370 - Smoothing was not working correctly in the C# algorithm, as such the peakSearch algorithm
+was corrected to use the smoothed data for the entire search. The change is mainly in the external
+dependencies linked to by AutoCal peak search
+ 
+********************************************************************************************************
+Simplicity Server 6.2.2 Changelog:
+EHSM-370 - removed the limit check around the smoothing call, now we should be able to use any value for the
+number of points to smooth.
+ 
+********************************************************************************************************
+Simplicity Server 6.2.1 Changelog:
+EHSM-3783 - Enabled the smoothing call inside the peak finder dll 
+EHSM-3490 - Auto CalRes Results report XPS Printing
+EHSM-2669 - Password protect AutoCAL accept calibration button
+EHSM-2686 - Redundant keep results Yes/No upon sucessfull termination of AutoCal
+********************************************************************************************************
+
+Simplicity Server 6.2 Changelog:
+EHSM-2741/2831 - Move and rename log files
+EHSM-2686 - Redundant keep results Yes/No upon sucessfull termination of AutoCal
+EHSM-2669 - Password protect AutoCAL accept calibration button
+EHSM-2783 - Brought in the settings from the User.config file for the peak finding parameters
+EHSM-3434 - Eliminate the version number from the window title for simplicity server
+********************************************************************************************************
+
+Simplicity Server 6.1.1 Changelog:
+EHSM-2712 - Increased the AutoCAL calibration timeout to 20min instead of the current 10min
+********************************************************************************************************
+
+Simplicity Server 6.0. Changelog:
+EHSM-2254 - Updated Server TCP communication to use the new TCP/IP packet structure.
+********************************************************************************************************
+Simplicity Server 5.70.9 Changelog:
+EHSM-2315 - Changed tables folder from C:\Users\Public\Simplicity 3Q\Acquisition\Sim to C:\ProgramData\PerkinElmer\Simplicity\Server
+EHSM-2312 - Fixed how plots are diplayed in AutoCal. The plots now show the correct enabled/disabled plots in increasing order.
+- Update new ipf template in case there is no ipf file in program data or in program files.
+********************************************************************************************************
+Simplicity Server 5.70.8 Changelog:
+EHSM-2297 - removing the save dialog that pops up when downloading the Cal/Res tables to the sbRIO.
+EHSM-2313 - Bringing back the ShowBriefStatus window
+EHSM-2314 - Using the latest ipf files provided by heather which have the log path corrected.
+********************************************************************************************************
+Simplicity Server 5.70.7 Changelog:
+Simulation Mode -Added a new field to the returned status call for Memory Version (MEM: 1)
+
+********************************************************************************************************
+Simplicity Server 5.70.6 Changelog:
+- EHSM-1462 - SS now uses ProgramData for accessing the ipf file
+- EHSM-1834 - Server now looks for ipf file in program files, if it is not available then it tries to 
+copy the 200 default ipf file located at application root, if it is not available then it uses a hardcoded
+copy of the last 200 default file provided by Heather G.
+- EHSM-849 - Added a check for values going above 7e6 CPS
+
+********************************************************************************************************
+Simplicity Server 5.70.5 Changelog:
+- EHSM-1462 - SS now uses the application path for accessing the ipf file, with this change SS needs admin
+access to write to the file. This is problomatic if SS doesnt run in admin mode.
+- EHSM-1708 - Server log not all written to log file
+
+********************************************************************************************************
+Simplicity Server 5.70.4 Changelog:
+- EHSM-370 - Consolidated the main AutoCal peak search parameters with the peaksearchparameter.xml file, AutoCal still uses
+some of the parameters defined in the peakSearch.dll settings file, this needs to be resolved on the top level SW side
+
+********************************************************************************************************
+Simplicity Server 5.70.3 Changelog:
+- Introduced a new Simplicity Server state "Waiting"  which gets triggered between StartRun and StartActualRun
+
+********************************************************************************************************
+Simplicity Server 5.70.2 Changelog:
+Fix for - EHSM-370- AutoCal - Included the external dependencies in the build  
+Fix for - EHSM-849 - AutoDV looks at 5 consecutive peaks
+
+********************************************************************************************************
+Simplicity Server 5.70.1 Changelog:
+Fix for - EHSM-370- AutoCal, RTD report different peak masses, widths
+corrected issue in reading the peak width from the dll rather than from old algorithm. dll is still
+not loading all the processing parameters waiting final response from SW team regarding what
+parameters are currently used in algorithm.
+
+********************************************************************************************************
+Simplicity Server 5.70 Changelog:
+- EHSM-370- AutoCal, RTD report different peak masses, widths
+- EHSM-1220 - Add support to AutoCal for reading new MS Method files
+- EHSM-849 - Initial implemnetation of AutoCal should incorporate DV optimization that looks for 3 consecutive peaks below 30% change
+- EHSM-778 - AutoCal report names should indicate Pos, Neg
+- EHSM-618 - Expand AutoCal to better accommodate rough mass cal
+- EHSM-850 - Allow AutoCal to pretend to run in Simulation mode
+
+********************************************************************************************************
+
+Simplicity Server 5.69 Changelog:
+- EHSM-1208 - simulation run with SServer 5.68 does not start run correctly
+
+********************************************************************************************************
+Simplicity Server 5.68 Changelog:
+- Simplicity Server Simulation mode changes for LC architecture
+
+********************************************************************************************************
+Simplicity Server 5.67 Changelog:
+- EHSM-553 - AutoCal fails due to missing SendActualStart command needed in new LC architecture
+
+********************************************************************************************************
+Simplicity Server 5.66 Changelog:
+- EHSM-343 - Support new "Run LC" Architecture
+- EHSM-429 - Send response back to top lvl app to indicate successful setting of parameters
+- EHSM-430 - Modify simulation mode to accept new command
+- EHSM-485 - Expose function to set CC lline config through the interface dll
+
+********************************************************************************************************
+Simplicity Server 5.65.0 Changelog:
+- LV2015 Build
+- Brought in AutoCal from Ionica Server

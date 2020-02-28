@@ -1,0 +1,52 @@
+Ion Sniffer 10.9.2 Changelog:
+QRD-162 - Updated Ion Sniffer ot LabVIEW 2018, this might fixed the problem
+*****************************************************************************************************
+Ion Sniffer 10.9.1 Changelog:
+QRD-155 - Added 400 series support in ion sniffer and RT also updated
+*****************************************************************************************************
+Ion Sniffer 10.9.0 Changelog:
+QRD-153 - Changed the XIC graph to show the sum of the scans in between the cursors on the TIC VS Time graph. Resized the UI to fit on a 1366x768 resolution screen
+*****************************************************************************************************
+QRD-146 - Updated Remote prpar run3 data to synch LC/GC with Mass spec
+Ion Sniffer 10.8.3 Changelog:
+*****************************************************************************************************
+Ion Sniffer 10.8.2 Changelog:
+QRD-128 - Updated Real time dplay to show date and time during print out
+*****************************************************************************************************
+Ion Sniffer 10.8.1 Changelog:
+QRD-147 - changed create Server ipf file VI.Values for Freq out and scale factor were swapped. 
+          This change will affect service tool and server as well. 
+*****************************************************************************************************
+Ion Sniffer 10.8.0 Changelog:
+QRD-148 - Added readbacks for the oscillators on programming window
+*****************************************************************************************************
+Ion Sniffer 10.7.3 Changelog:
+QRD-129 - Changed Data Viewer, it will display file name only not conplete path
+*****************************************************************************************************
+Ion Sniffer 10.7.2 Changelog:
+QRD-129 - Changed default units to CPS and corrected the pop-up window to use the correct units. Ion sniffer will now close once the user exits the program
+*****************************************************************************************************
+Ion Sniffer 10.7.1 Changelog:
+QRD-129 - Added string indicator on data viewer for file name display
+*****************************************************************************************************
+Ion Sniffer 10.7 Changelog:
+QRD-109 - Global VI added to display correct version of Ion Sniffer over multiple VIs
+*****************************************************************************************************
+Ion Sniffer 10.6 Changelog:
+QRD-145 - Heater channels were being added by Ion Sniffer causing the FW to error when starting up, removed this functionality as the heaters are not being used yet
+********************************************************************************************************
+Ion Sniffer 10.5 Changelog:
+QRD-139 - Made some changes to ensure Ion Sniffer will not start acquiring data on it's own
+********************************************************************************************************
+Ion Sniffer 10.4 Changelog:
+QRD-140B made labels on brief status smarter.it will adjust for Heaters and Flange or P1T and P2T
+QRD-106 Added a property node for closed led in realtime display.
+QRD-101 - Rebuild Ion Sniffer so that it includes the new methods to use QSight 310 and QSight 320.
+********************************************************************************************************
+
+Ion Sniffer 10.2.3 Changelog:
+
+QRD-64 - Had to change Ion Sniffer to print the FP asynchonously if the user presses print on the AutoCal FP. Otherwise, the file prompt will hold up execution.
+
+
+********************************************************************************************************

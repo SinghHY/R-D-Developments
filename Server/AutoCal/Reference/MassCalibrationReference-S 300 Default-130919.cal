@@ -1,0 +1,46 @@
+<CalibrationResolution>
+  <Polarity polarity="Positive">
+    <MassUsePair>
+      <MassValue>59.05</MassValue>
+      <Use>True</Use>
+    </MassUsePair>
+    <MassUsePair>
+      <MassValue>175.13</MassValue>
+      <Use>True</Use>
+    </MassUsePair>
+    <MassUsePair>
+      <MassValue>349.26</MassValue>
+      <Use>True</Use>
+    </MassUsePair>
+    <MassUsePair>
+      <MassValue>616.46</MassValue>
+      <Use>True</Use>
+    </MassUsePair>
+    <MassUsePair>
+      <MassValue>732.54</MassValue>
+      <Use>True</Use>
+    </MassUsePair>
+    <MassUsePair>
+      <MassValue>790.59</MassValue>
+      <Use>True</Use>
+    </MassUsePair>
+  </Polarity>
+  <Polarity polarity="Negative">
+    <MassUsePair>
+      <MassValue>45</MassValue>
+      <Use>True</Use>
+    </MassUsePair>
+    <MassUsePair>
+      <MassValue>585.39</MassValue>
+      <Use>True</Use>
+    </MassUsePair>
+    <MassUsePair>
+      <MassValue>643.43</MassValue>
+      <Use>True</Use>
+    </MassUsePair>
+    <MassUsePair>
+      <MassValue>759.51</MassValue>
+      <Use>True</Use>
+    </MassUsePair>
+  </Polarity>
+</CalibrationResolution>

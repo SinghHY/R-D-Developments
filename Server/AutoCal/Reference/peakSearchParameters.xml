@@ -1,0 +1,12 @@
+<PeakPickingParameter>
+  <MinimumMassPeakWidth>0.3</MinimumMassPeakWidth>
+  <MinimumChromatographicPeakWidth>0.20</MinimumChromatographicPeakWidth>
+  <ThresholdForMassSpectrum>5000</ThresholdForMassSpectrum>
+  <ThresholdForChromatogram>100</ThresholdForChromatogram>
+  <SearchRange>4.0</SearchRange>
+  <NumberOfSmooth>3</NumberOfSmooth>
+  <NumberOfPointsToSmooth>3</NumberOfPointsToSmooth>
+  <WidthAtOfMaximum>50</WidthAtOfMaximum>
+  <PeakFindingNoiseLevel>1.5</PeakFindingNoiseLevel>
+  <MultiplePeakWidth>0.30</MultiplePeakWidth>
+</PeakPickingParameter>
